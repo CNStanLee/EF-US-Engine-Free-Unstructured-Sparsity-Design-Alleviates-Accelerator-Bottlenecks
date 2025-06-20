@@ -1,0 +1,49 @@
+{
+	"version": "1.0",
+	"modules": {
+		"StreamingMaxPool_hls_1": {
+			"proto_instances": {
+				"grp_StreamingMaxPool_Precision_14u_2u_50u_ap_uint_8_0_400_s_fu_28/grp_StreamingMaxPool_Precision_14u_2u_50u_ap_uint_8_0_400_s_fu_28_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_StreamingMaxPool_Precision_14u_2u_50u_ap_uint_8_0_400_s_fu_28/grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_882/grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_882_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_StreamingMaxPool_Precision_14u_2u_50u_ap_uint_8_0_400_s_fu_28/grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_1042/grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_1042_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_StreamingMaxPool_Precision_14u_2u_50u_ap_uint_8_0_400_s_fu_28/grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_986/grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_986_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				}
+			}
+		}
+	}
+}

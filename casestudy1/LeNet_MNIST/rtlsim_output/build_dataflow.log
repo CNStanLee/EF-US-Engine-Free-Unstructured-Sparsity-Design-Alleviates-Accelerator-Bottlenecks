@@ -1,0 +1,278 @@
+[2025-06-18 16:22:06,657] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 16:22:06,686] /home/changhong/prj/finn/deps/qonnx/src/qonnx/transformation/gemm_to_matmul.py:57: UserWarning: The GemmToMatMul transformation only offers explicit support for version 9 of the Gemm node, but the ONNX version of the supplied model is 14. Thus the transformation may fail or return incomplete results.
+[2025-06-18 16:22:06,687]   warnings.warn(
+[2025-06-18 16:22:06,817] Running step: step_tidy_up [2/19]
+[2025-06-18 16:22:06,837] Running step: step_streamline [3/19]
+[2025-06-18 16:22:07,406] /home/changhong/prj/finn/deps/qonnx/src/qonnx/transformation/infer_data_layouts.py:127: UserWarning: Assuming 4D input is NCHW
+[2025-06-18 16:22:07,406]   warnings.warn("Assuming 4D input is NCHW")
+[2025-06-18 16:22:07,410] Running step: step_convert_to_hw [4/19]
+[2025-06-18 16:22:07,418] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/convert_to_hw_layers.py:63: UserWarning: Im2Col_0 : Input is not int. Can't infer ConvInpGen.
+[2025-06-18 16:22:07,418]   warnings.warn("%s : Input is not int. Can't infer ConvInpGen." % n.name)
+[2025-06-18 16:22:07,435] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 16:22:07,443] Running step: step_specialize_layers [6/19]
+[2025-06-18 16:22:07,455] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 16:22:07,455] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type StreamingMaxPool_hls
+[2025-06-18 16:22:07,455]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2025-06-18 16:22:07,455] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type FMPadding_rtl
+[2025-06-18 16:22:07,455]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2025-06-18 16:22:07,459] /home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_0 can be lower than
+[2025-06-18 16:22:07,459]              actual latency!
+[2025-06-18 16:22:07,459]   warnings.warn(
+[2025-06-18 16:22:07,459] /home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_1 can be lower than
+[2025-06-18 16:22:07,459]              actual latency!
+[2025-06-18 16:22:07,459]   warnings.warn(
+[2025-06-18 16:22:07,460] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:233: UserWarning: Node StreamingMaxPool_hls_0 is bottleneck with 980 cycles, running second pass
+[2025-06-18 16:22:07,460]   warnings.warn(
+[2025-06-18 16:22:07,466] Running step: step_apply_folding_config [8/19]
+[2025-06-18 16:22:07,469] Running step: step_minimize_bit_width [9/19]
+[2025-06-18 16:22:07,576] Running step: step_generate_estimate_reports [10/19]
+[2025-06-18 16:22:07,578] Running step: step_hw_codegen [11/19]
+[2025-06-18 16:22:17,650] Running step: step_hw_ipgen [12/19]
+[2025-06-18 17:04:31,143] Process ForkPoolWorker-2:
+[2025-06-18 17:07:25,645] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 17:07:25,666] /home/changhong/prj/finn/deps/qonnx/src/qonnx/transformation/gemm_to_matmul.py:57: UserWarning: The GemmToMatMul transformation only offers explicit support for version 9 of the Gemm node, but the ONNX version of the supplied model is 14. Thus the transformation may fail or return incomplete results.
+[2025-06-18 17:07:25,666]   warnings.warn(
+[2025-06-18 17:07:25,777] Running step: step_tidy_up [2/19]
+[2025-06-18 17:07:25,793] Running step: step_streamline [3/19]
+[2025-06-18 17:07:26,307] /home/changhong/prj/finn/deps/qonnx/src/qonnx/transformation/infer_data_layouts.py:127: UserWarning: Assuming 4D input is NCHW
+[2025-06-18 17:07:26,307]   warnings.warn("Assuming 4D input is NCHW")
+[2025-06-18 17:07:26,311] Running step: step_convert_to_hw [4/19]
+[2025-06-18 17:07:26,337] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 17:07:26,347] Running step: step_specialize_layers [6/19]
+[2025-06-18 17:07:26,360] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 17:07:26,360] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type FMPadding_rtl
+[2025-06-18 17:07:26,360]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2025-06-18 17:07:26,361] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type StreamingMaxPool_hls
+[2025-06-18 17:07:26,361]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2025-06-18 17:07:26,365] /home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_0 can be lower than
+[2025-06-18 17:07:26,365]              actual latency!
+[2025-06-18 17:07:26,365]   warnings.warn(
+[2025-06-18 17:07:26,365] /home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_1 can be lower than
+[2025-06-18 17:07:26,365]              actual latency!
+[2025-06-18 17:07:26,365]   warnings.warn(
+[2025-06-18 17:07:26,366] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:233: UserWarning: Node StreamingMaxPool_hls_0 is bottleneck with 980 cycles, running second pass
+[2025-06-18 17:07:26,366]   warnings.warn(
+[2025-06-18 17:07:26,374] Running step: step_apply_folding_config [8/19]
+[2025-06-18 17:07:26,377] Running step: step_minimize_bit_width [9/19]
+[2025-06-18 17:07:26,487] Running step: step_generate_estimate_reports [10/19]
+[2025-06-18 17:07:26,490] Running step: step_hw_codegen [11/19]
+[2025-06-18 17:09:28,939] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 17:09:29,053] Running step: step_tidy_up [2/19]
+[2025-06-18 17:09:29,070] Running step: step_streamline [3/19]
+[2025-06-18 17:09:29,562] Running step: step_convert_to_hw [4/19]
+[2025-06-18 17:09:29,585] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 17:09:29,597] Running step: step_specialize_layers [6/19]
+[2025-06-18 17:09:29,610] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 17:09:29,624] Running step: step_apply_folding_config [8/19]
+[2025-06-18 17:09:58,754] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 17:09:58,889] Running step: step_tidy_up [2/19]
+[2025-06-18 17:09:58,908] Running step: step_streamline [3/19]
+[2025-06-18 17:09:59,440] Running step: step_convert_to_hw [4/19]
+[2025-06-18 17:09:59,463] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 17:09:59,475] Running step: step_specialize_layers [6/19]
+[2025-06-18 17:09:59,487] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 17:09:59,501] Running step: step_apply_folding_config [8/19]
+[2025-06-18 17:09:59,505] Running step: step_minimize_bit_width [9/19]
+[2025-06-18 17:09:59,622] Running step: step_generate_estimate_reports [10/19]
+[2025-06-18 17:09:59,625] Running step: step_hw_codegen [11/19]
+[2025-06-18 17:10:32,040] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 17:10:32,163] Running step: step_tidy_up [2/19]
+[2025-06-18 17:10:32,181] Running step: step_streamline [3/19]
+[2025-06-18 17:10:32,807] Running step: step_convert_to_hw [4/19]
+[2025-06-18 17:10:32,839] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 17:10:32,849] Running step: step_specialize_layers [6/19]
+[2025-06-18 17:10:32,860] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 17:10:32,873] Running step: step_apply_folding_config [8/19]
+[2025-06-18 17:10:32,876] Running step: step_minimize_bit_width [9/19]
+[2025-06-18 17:10:32,989] Running step: step_generate_estimate_reports [10/19]
+[2025-06-18 17:10:32,992] Running step: step_hw_codegen [11/19]
+[2025-06-18 17:25:31,157] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 17:25:31,259] Running step: step_tidy_up [2/19]
+[2025-06-18 17:25:31,275] Running step: step_streamline [3/19]
+[2025-06-18 17:25:31,762] Running step: step_convert_to_hw [4/19]
+[2025-06-18 17:25:31,787] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 17:25:31,798] Running step: step_specialize_layers [6/19]
+[2025-06-18 17:25:31,806] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 17:25:31,820] Running step: step_apply_folding_config [8/19]
+[2025-06-18 17:25:31,824] Running step: step_minimize_bit_width [9/19]
+[2025-06-18 17:25:31,937] Running step: step_generate_estimate_reports [10/19]
+[2025-06-18 17:25:31,940] Running step: step_hw_codegen [11/19]
+[2025-06-18 17:47:13,244] Running step: step_qonnx_to_finn [1/19]
+[2025-06-18 17:47:13,264] /home/changhong/prj/finn/deps/qonnx/src/qonnx/transformation/gemm_to_matmul.py:57: UserWarning: The GemmToMatMul transformation only offers explicit support for version 9 of the Gemm node, but the ONNX version of the supplied model is 14. Thus the transformation may fail or return incomplete results.
+[2025-06-18 17:47:13,264]   warnings.warn(
+[2025-06-18 17:47:13,371] Running step: step_tidy_up [2/19]
+[2025-06-18 17:47:13,389] Running step: step_streamline [3/19]
+[2025-06-18 17:47:13,888] /home/changhong/prj/finn/deps/qonnx/src/qonnx/transformation/infer_data_layouts.py:127: UserWarning: Assuming 4D input is NCHW
+[2025-06-18 17:47:13,888]   warnings.warn("Assuming 4D input is NCHW")
+[2025-06-18 17:47:13,893] Running step: step_convert_to_hw [4/19]
+[2025-06-18 17:47:13,915] Running step: step_create_dataflow_partition [5/19]
+[2025-06-18 17:47:13,924] Running step: step_specialize_layers [6/19]
+[2025-06-18 17:47:13,930] Running step: step_target_fps_parallelization [7/19]
+[2025-06-18 17:47:13,931] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type FMPadding_rtl
+[2025-06-18 17:47:13,931]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2025-06-18 17:47:13,931] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type StreamingMaxPool_hls
+[2025-06-18 17:47:13,931]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2025-06-18 17:47:13,935] /home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_0 can be lower than
+[2025-06-18 17:47:13,935]              actual latency!
+[2025-06-18 17:47:13,935]   warnings.warn(
+[2025-06-18 17:47:13,935] /home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_1 can be lower than
+[2025-06-18 17:47:13,935]              actual latency!
+[2025-06-18 17:47:13,935]   warnings.warn(
+[2025-06-18 17:47:13,936] /home/changhong/prj/finn/src/finn/transformation/fpgadataflow/set_folding.py:233: UserWarning: Node StreamingMaxPool_hls_0 is bottleneck with 980 cycles, running second pass
+[2025-06-18 17:47:13,936]   warnings.warn(
+[2025-06-18 17:47:13,944] Running step: step_apply_folding_config [8/19]
+[2025-06-18 17:47:13,947] Running step: step_minimize_bit_width [9/19]
+[2025-06-18 17:47:14,057] Running step: step_generate_estimate_reports [10/19]
+[2025-06-18 17:47:14,059] Running step: step_hw_codegen [11/19]
+[2025-06-19 07:51:37,800] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 07:51:37,902] Running step: step_tidy_up [2/19]
+[2025-06-19 07:51:37,917] Running step: step_streamline [3/19]
+[2025-06-19 07:51:38,390] Running step: step_convert_to_hw [4/19]
+[2025-06-19 07:51:38,414] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 07:51:38,422] Running step: step_specialize_layers [6/19]
+[2025-06-19 07:51:38,430] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 07:51:38,443] Running step: step_apply_folding_config [8/19]
+[2025-06-19 07:51:38,446] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 07:51:38,558] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 07:51:38,560] Running step: step_hw_codegen [11/19]
+[2025-06-19 07:51:48,716] Running step: step_hw_ipgen [12/19]
+[2025-06-19 07:51:56,820] Process ForkPoolWorker-8:
+[2025-06-19 07:51:56,820] Process ForkPoolWorker-7:
+[2025-06-19 07:51:56,821] Process ForkPoolWorker-6:
+[2025-06-19 07:51:56,822] Process ForkPoolWorker-5:
+[2025-06-19 07:55:43,818] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 07:55:43,924] Running step: step_tidy_up [2/19]
+[2025-06-19 07:55:43,938] Running step: step_streamline [3/19]
+[2025-06-19 07:55:44,430] Running step: step_convert_to_hw [4/19]
+[2025-06-19 07:55:44,454] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 07:55:44,463] Running step: step_specialize_layers [6/19]
+[2025-06-19 07:55:44,471] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 07:55:44,484] Running step: step_apply_folding_config [8/19]
+[2025-06-19 07:55:44,487] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 07:55:44,600] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 07:55:44,603] Running step: step_hw_codegen [11/19]
+[2025-06-19 08:00:56,920] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 08:00:57,017] Running step: step_tidy_up [2/19]
+[2025-06-19 08:00:57,033] Running step: step_streamline [3/19]
+[2025-06-19 08:00:57,529] Running step: step_convert_to_hw [4/19]
+[2025-06-19 08:00:57,552] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 08:00:57,561] Running step: step_specialize_layers [6/19]
+[2025-06-19 08:00:57,568] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 08:00:57,582] Running step: step_apply_folding_config [8/19]
+[2025-06-19 08:00:57,585] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 08:00:57,693] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 08:00:57,695] Running step: step_hw_codegen [11/19]
+[2025-06-19 08:01:41,680] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 08:01:41,792] Running step: step_tidy_up [2/19]
+[2025-06-19 08:01:41,812] Running step: step_streamline [3/19]
+[2025-06-19 08:01:42,310] Running step: step_convert_to_hw [4/19]
+[2025-06-19 08:01:42,333] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 08:01:42,343] Running step: step_specialize_layers [6/19]
+[2025-06-19 08:01:42,350] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 08:01:42,363] Running step: step_apply_folding_config [8/19]
+[2025-06-19 08:01:42,366] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 08:01:42,474] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 08:01:42,476] Running step: step_hw_codegen [11/19]
+[2025-06-19 08:02:29,078] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 08:02:29,186] Running step: step_tidy_up [2/19]
+[2025-06-19 08:02:29,203] Running step: step_streamline [3/19]
+[2025-06-19 08:02:29,695] Running step: step_convert_to_hw [4/19]
+[2025-06-19 08:02:29,718] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 08:02:29,726] Running step: step_specialize_layers [6/19]
+[2025-06-19 08:02:29,733] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 08:02:29,745] Running step: step_apply_folding_config [8/19]
+[2025-06-19 08:02:29,748] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 08:02:29,861] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 08:02:29,863] Running step: step_hw_codegen [11/19]
+[2025-06-19 08:02:51,598] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 08:02:51,716] Running step: step_tidy_up [2/19]
+[2025-06-19 08:02:51,732] Running step: step_streamline [3/19]
+[2025-06-19 08:02:52,228] Running step: step_convert_to_hw [4/19]
+[2025-06-19 08:02:52,250] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 08:02:52,259] Running step: step_specialize_layers [6/19]
+[2025-06-19 08:02:52,266] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 08:02:52,279] Running step: step_apply_folding_config [8/19]
+[2025-06-19 08:02:52,283] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 08:02:52,394] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 08:02:52,397] Running step: step_hw_codegen [11/19]
+[2025-06-19 08:03:01,391] Running step: step_hw_ipgen [12/19]
+[2025-06-19 12:14:46,592] Running step: step_qonnx_to_finn [1/19]
+[2025-06-19 12:14:46,726] Running step: step_tidy_up [2/19]
+[2025-06-19 12:14:46,742] Running step: step_streamline [3/19]
+[2025-06-19 12:14:47,251] Running step: step_convert_to_hw [4/19]
+[2025-06-19 12:14:47,276] Running step: step_create_dataflow_partition [5/19]
+[2025-06-19 12:14:47,286] Running step: step_specialize_layers [6/19]
+[2025-06-19 12:14:47,294] Running step: step_target_fps_parallelization [7/19]
+[2025-06-19 12:14:47,315] Running step: step_apply_folding_config [8/19]
+[2025-06-19 12:14:47,320] Running step: step_minimize_bit_width [9/19]
+[2025-06-19 12:14:47,433] Running step: step_generate_estimate_reports [10/19]
+[2025-06-19 12:14:47,436] Running step: step_hw_codegen [11/19]
+[2025-06-19 12:15:00,084] Running step: step_hw_ipgen [12/19]
+[2025-06-19 12:23:16,536] Process ForkPoolWorker-16:
+[2025-06-19 12:23:16,536] Process ForkPoolWorker-13:
+[2025-06-19 12:23:16,537] Process ForkPoolWorker-14:
+[2025-06-19 12:23:16,537] Process ForkPoolWorker-15:
+[2025-06-19 12:23:16,592] Traceback (most recent call last):
+[2025-06-19 12:23:16,592]   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[2025-06-19 12:23:16,592]     self.run()
+[2025-06-19 12:23:16,593]   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[2025-06-19 12:23:16,593]     self._target(*self._args, **self._kwargs)
+[2025-06-19 12:23:16,593]   File "/usr/lib/python3.10/multiprocessing/pool.py", line 114, in worker
+[2025-06-19 12:23:16,593]     task = get()
+[2025-06-19 12:23:16,593]   File "/usr/lib/python3.10/multiprocessing/queues.py", line 364, in get
+[2025-06-19 12:23:16,593]     with self._rlock:
+[2025-06-19 12:23:16,593]   File "/usr/lib/python3.10/multiprocessing/synchronize.py", line 95, in __enter__
+[2025-06-19 12:23:16,593]     return self._semlock.__enter__()
+[2025-06-19 12:23:16,593] KeyboardInterrupt
+[2025-06-19 12:23:16,594] Traceback (most recent call last):
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[2025-06-19 12:23:16,594]     self.run()
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[2025-06-19 12:23:16,594]     self._target(*self._args, **self._kwargs)
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/pool.py", line 114, in worker
+[2025-06-19 12:23:16,594]     task = get()
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/queues.py", line 365, in get
+[2025-06-19 12:23:16,594]     res = self._reader.recv_bytes()
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/connection.py", line 216, in recv_bytes
+[2025-06-19 12:23:16,594]     buf = self._recv_bytes(maxlength)
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/connection.py", line 414, in _recv_bytes
+[2025-06-19 12:23:16,594]     buf = self._recv(4)
+[2025-06-19 12:23:16,594]   File "/usr/lib/python3.10/multiprocessing/connection.py", line 379, in _recv
+[2025-06-19 12:23:16,594]     chunk = read(handle, remaining)
+[2025-06-19 12:23:16,594] KeyboardInterrupt
+[2025-06-19 12:23:16,599] Traceback (most recent call last):
+[2025-06-19 12:23:16,600]   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[2025-06-19 12:23:16,600]     self.run()
+[2025-06-19 12:23:16,600]   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[2025-06-19 12:23:16,600]     self._target(*self._args, **self._kwargs)
+[2025-06-19 12:23:16,600]   File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+[2025-06-19 12:23:16,600]     result = (True, func(*args, **kwds))
+[2025-06-19 12:23:16,600]   File "/usr/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+[2025-06-19 12:23:16,600]     return list(map(*args))
+[2025-06-19 12:23:16,600]   File "/home/changhong/prj/finn/src/finn/transformation/fpgadataflow/hlssynth_ip.py", line 72, in applyNodeLocal
+[2025-06-19 12:23:16,600]     inst.ipgen_singlenode_code()
+[2025-06-19 12:23:16,600]   File "/home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/hlsbackend.py", line 183, in ipgen_singlenode_code
+[2025-06-19 12:23:16,600]     builder.build(code_gen_dir)
+[2025-06-19 12:23:16,600]   File "/home/changhong/prj/finn/src/finn/util/hls.py", line 69, in build
+[2025-06-19 12:23:16,600]     process_compile.communicate()
+[2025-06-19 12:23:16,600]   File "/usr/lib/python3.10/subprocess.py", line 1141, in communicate
+[2025-06-19 12:23:16,600]     stdout = self.stdout.read()
+[2025-06-19 12:23:16,600] KeyboardInterrupt
+[2025-06-19 12:23:16,602] Traceback (most recent call last):
+[2025-06-19 12:23:16,603]   File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+[2025-06-19 12:23:16,603]     self.run()
+[2025-06-19 12:23:16,603]   File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+[2025-06-19 12:23:16,603]     self._target(*self._args, **self._kwargs)
+[2025-06-19 12:23:16,603]   File "/usr/lib/python3.10/multiprocessing/pool.py", line 125, in worker
+[2025-06-19 12:23:16,603]     result = (True, func(*args, **kwds))
+[2025-06-19 12:23:16,603]   File "/usr/lib/python3.10/multiprocessing/pool.py", line 48, in mapstar
+[2025-06-19 12:23:16,603]     return list(map(*args))
+[2025-06-19 12:23:16,603]   File "/home/changhong/prj/finn/src/finn/transformation/fpgadataflow/hlssynth_ip.py", line 72, in applyNodeLocal
+[2025-06-19 12:23:16,603]     inst.ipgen_singlenode_code()
+[2025-06-19 12:23:16,603]   File "/home/changhong/prj/finn/src/finn/custom_op/fpgadataflow/hlsbackend.py", line 183, in ipgen_singlenode_code
+[2025-06-19 12:23:16,603]     builder.build(code_gen_dir)
+[2025-06-19 12:23:16,603]   File "/home/changhong/prj/finn/src/finn/util/hls.py", line 69, in build
+[2025-06-19 12:23:16,603]     process_compile.communicate()
+[2025-06-19 12:23:16,603]   File "/usr/lib/python3.10/subprocess.py", line 1141, in communicate
+[2025-06-19 12:23:16,603]     stdout = self.stdout.read()
+[2025-06-19 12:23:16,603] KeyboardInterrupt

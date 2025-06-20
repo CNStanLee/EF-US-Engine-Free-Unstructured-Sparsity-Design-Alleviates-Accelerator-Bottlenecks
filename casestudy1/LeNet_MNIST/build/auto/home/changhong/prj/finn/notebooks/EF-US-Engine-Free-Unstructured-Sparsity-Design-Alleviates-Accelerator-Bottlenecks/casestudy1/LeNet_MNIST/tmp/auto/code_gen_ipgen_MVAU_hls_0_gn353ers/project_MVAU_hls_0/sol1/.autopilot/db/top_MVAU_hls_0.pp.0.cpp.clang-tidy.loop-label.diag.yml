@@ -1,0 +1,1812 @@
+---
+MainSourceFile:  /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          56827
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          264347
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          264790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          265234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          527632
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1647110
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1647685
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1660965
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1661436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_1:  '
+    FileOffset:      158
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1662504
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_2:  '
+    FileOffset:      159
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1662549
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1663279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1663614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1664250
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_2:  '
+    FileOffset:      278
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1664296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_279_3:  '
+    FileOffset:      279
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1664343
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_279_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_1:  '
+    FileOffset:      333
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1665117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1666180
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_453_1:  '
+    FileOffset:      453
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1666826
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_453_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_455_2:  '
+    FileOffset:      455
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1666902
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_455_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_456_3:  '
+    FileOffset:      456
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1666953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_456_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_526_1:  '
+    FileOffset:      526
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1668213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_526_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_546_2:  '
+    FileOffset:      546
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1668552
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_546_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_557_3:  '
+    FileOffset:      557
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1668887
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_557_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_611_1:  '
+    FileOffset:      611
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1669950
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_611_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_2:  '
+    FileOffset:      629
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1670485
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_666_1:  '
+    FileOffset:      666
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1671185
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_666_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1671647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1672205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_729_2:  '
+    FileOffset:      729
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1672445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_729_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_767_1:  '
+    FileOffset:      767
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1673245
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_767_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_845_1:  '
+    FileOffset:      845
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1675328
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_845_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_852_2:  '
+    FileOffset:      852
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1675490
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_852_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_868_3:  '
+    FileOffset:      868
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1675755
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_868_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_874_4:  '
+    FileOffset:      874
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1675942
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_874_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_886_5:  '
+    FileOffset:      886
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1676237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_886_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_890_6:  '
+    FileOffset:      890
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1676374
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_890_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_926_1:  '
+    FileOffset:      926
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1676918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_926_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_930_2:  '
+    FileOffset:      930
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1677094
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_930_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_957_1:  '
+    FileOffset:      957
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1677527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_957_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_961_2:  '
+    FileOffset:      961
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1677699
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_961_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1049_1:  '
+    FileOffset:      1049
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1679749
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1049_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1050_2:  '
+    FileOffset:      1050
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1679808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1050_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1072_1:  '
+    FileOffset:      1072
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1680203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1072_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1073_2:  '
+    FileOffset:      1073
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1680262
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1073_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1681708
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_1:  '
+    FileOffset:      140
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1682320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1682737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1683137
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1683702
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1684278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_2:  '
+    FileOffset:      223
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1684329
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_3:  '
+    FileOffset:      227
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1684453
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1955880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1956036
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      74
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      116
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      137
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1958606
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_2:  '
+    FileOffset:      191
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1958685
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1963059
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_2:  '
+    FileOffset:      325
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1963136
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1963348
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_4:  '
+    FileOffset:      358
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1964195
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_391_5:  '
+    FileOffset:      391
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1965047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_391_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1967361
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1967642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_625_1:  '
+    FileOffset:      625
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1971946
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_625_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_2:  '
+    FileOffset:      630
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1972227
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_636_3:  '
+    FileOffset:      636
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1972418
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_636_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_671_4:  '
+    FileOffset:      671
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1973537
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_671_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_5:  '
+    FileOffset:      704
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1974335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_780_1:  '
+    FileOffset:      780
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1976412
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_780_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_2:  '
+    FileOffset:      781
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1976491
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_910_1:  '
+    FileOffset:      910
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1980729
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_910_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_2:  '
+    FileOffset:      914
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1980963
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1064_1:  '
+    FileOffset:      1064
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1986360
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1064_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1065_2:  '
+    FileOffset:      1065
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1986437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1065_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1071_3:  '
+    FileOffset:      1071
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1986649
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1071_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1098_4:  '
+    FileOffset:      1098
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1987496
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1098_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_5:  '
+    FileOffset:      1131
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1988348
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1190_1:  '
+    FileOffset:      1190
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1989631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1193_2:  '
+    FileOffset:      1193
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1989781
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1197_3:  '
+    FileOffset:      1197
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1990008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1197_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1201_4:  '
+    FileOffset:      1201
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1990245
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1201_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_1:  '
+    FileOffset:      1239
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1990994
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1241_2:  '
+    FileOffset:      1241
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1991080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1241_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1244_3:  '
+    FileOffset:      1244
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1991266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1244_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_1:  '
+    FileOffset:      1313
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1993116
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1314_2:  '
+    FileOffset:      1314
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1993195
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1314_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1447_1:  '
+    FileOffset:      1447
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1997445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1447_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1448_2:  '
+    FileOffset:      1448
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          1997524
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1448_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_1:  '
+    FileOffset:      1588
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2001764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1589_2:  '
+    FileOffset:      1589
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2001843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1589_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1716_1:  '
+    FileOffset:      1716
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2005582
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1717_2:  '
+    FileOffset:      1717
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2005661
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1717_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1737_3:  '
+    FileOffset:      1737
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2006146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1737_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1822_1:  '
+    FileOffset:      1822
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2008227
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1822_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1823_2:  '
+    FileOffset:      1823
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2008306
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1823_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1901_1:  '
+    FileOffset:      1901
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2010342
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1901_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1907_2:  '
+    FileOffset:      1907
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2010565
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1907_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1977_1:  '
+    FileOffset:      1977
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2012188
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1977_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1983_2:  '
+    FileOffset:      1983
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2012375
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1983_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2055_1:  '
+    FileOffset:      2055
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2014013
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2055_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2062_2:  '
+    FileOffset:      2062
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2014223
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2062_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2021422
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2021514
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2021575
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_4:  '
+    FileOffset:      80
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2021629
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_5:  '
+    FileOffset:      82
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2021732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_6:  '
+    FileOffset:      90
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2021893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2022342
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2022926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_2:  '
+    FileOffset:      148
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2022983
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_3:  '
+    FileOffset:      154
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023128
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_4:  '
+    FileOffset:      155
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023189
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_6:  '
+    FileOffset:      158
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023309
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_7:  '
+    FileOffset:      161
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023427
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_8:  '
+    FileOffset:      174
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023838
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_9:  '
+    FileOffset:      175
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2023913
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2025077
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2026131
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_2:  '
+    FileOffset:      259
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2026209
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_3:  '
+    FileOffset:      267
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2026383
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_4:  '
+    FileOffset:      269
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2026439
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_5:  '
+    FileOffset:      271
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2026530
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2026642
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_7:  '
+    FileOffset:      287
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2027055
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_8:  '
+    FileOffset:      289
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2027133
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_9:  '
+    FileOffset:      301
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2027428
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_1:  '
+    FileOffset:      332
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2027969
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2028611
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_2:  '
+    FileOffset:      368
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2028667
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_3:  '
+    FileOffset:      369
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2028730
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_372_4:  '
+    FileOffset:      372
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2028853
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_372_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      415
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2029877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_2:  '
+    FileOffset:      419
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2029933
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_3:  '
+    FileOffset:      420
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2029996
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_4:  '
+    FileOffset:      424
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2030191
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_5:  '
+    FileOffset:      435
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2030635
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_1:  '
+    FileOffset:      481
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2031412
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_483_2:  '
+    FileOffset:      483
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2031490
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_483_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_488_3:  '
+    FileOffset:      488
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2031624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_488_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_491_4:  '
+    FileOffset:      491
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2031787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_491_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_500_5:  '
+    FileOffset:      500
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2032047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_500_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_6:  '
+    FileOffset:      507
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2032181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_7:  '
+    FileOffset:      527
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2032538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_1:  '
+    FileOffset:      575
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2033256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_582_2:  '
+    FileOffset:      582
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2033414
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_582_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_3:  '
+    FileOffset:      589
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2033575
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_4:  '
+    FileOffset:      598
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2033783
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2035483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_1:  '
+    FileOffset:      194
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2035808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2036997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2037249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2037307
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_150_4:  '
+    FileOffset:      150
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2037483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_150_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_5:  '
+    FileOffset:      153
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2037583
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_6:  '
+    FileOffset:      164
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2037852
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_7:  '
+    FileOffset:      166
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2037911
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2039199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_2:  '
+    FileOffset:      266
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2039462
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_3:  '
+    FileOffset:      273
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2039624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2039741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_5:  '
+    FileOffset:      293
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2040043
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2041148
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2041465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2041610
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2041666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_5:  '
+    FileOffset:      131
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2042493
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2042589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2043899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_1:  '
+    FileOffset:      109
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2051487
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_115_2:  '
+    FileOffset:      115
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2051634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_115_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_3:  '
+    FileOffset:      116
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2051680
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_4:  '
+    FileOffset:      125
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2051856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_5:  '
+    FileOffset:      130
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2052003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2052299
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_7:  '
+    FileOffset:      146
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2052570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_8:  '
+    FileOffset:      148
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2052629
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_225_1:  '
+    FileOffset:      225
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2053676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_225_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2053816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_232_3:  '
+    FileOffset:      232
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2053858
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_232_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_4:  '
+    FileOffset:      243
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2054141
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_5:  '
+    FileOffset:      248
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2054278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_6:  '
+    FileOffset:      253
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2054419
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_7:  '
+    FileOffset:      258
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2054662
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_8:  '
+    FileOffset:      269
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2054916
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_9:  '
+    FileOffset:      271
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2054974
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2056364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2056411
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2057389
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_1:  '
+    FileOffset:      174
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2058039
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2174813
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_1:  '
+    FileOffset:      295
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2176001
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_300_2:  '
+    FileOffset:      300
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2176178
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_300_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_356_1:  '
+    FileOffset:      356
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2177135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_356_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2177479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_374_3:  '
+    FileOffset:      374
+    FilePath:        /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_0_gn353ers/project_MVAU_hls_0/sol1/.autopilot/db/top_MVAU_hls_0.pp.0.cpp
+        Offset:          2177604
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_374_3: '
+...

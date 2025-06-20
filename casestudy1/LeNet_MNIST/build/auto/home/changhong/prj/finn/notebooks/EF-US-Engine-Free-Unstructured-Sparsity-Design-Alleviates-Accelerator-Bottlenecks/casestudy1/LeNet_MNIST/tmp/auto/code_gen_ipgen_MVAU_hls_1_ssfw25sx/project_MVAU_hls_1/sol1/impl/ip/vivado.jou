@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jun 19 16:21:09 2025
+# Process ID: 6712
+# Current directory: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_1_ssfw25sx/project_MVAU_hls_1/sol1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_1_ssfw25sx/project_MVAU_hls_1/sol1/impl/ip/vivado.log
+# Journal file: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST/tmp/auto/code_gen_ipgen_MVAU_hls_1_ssfw25sx/project_MVAU_hls_1/sol1/impl/ip/vivado.jou
+# Running On: finn_dev_root, OS: Linux, CPU Frequency: 2951.495 MHz, CPU Physical cores: 20, Host memory: 66845 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
