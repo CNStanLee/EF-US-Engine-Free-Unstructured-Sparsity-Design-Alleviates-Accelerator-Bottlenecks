@@ -72,3 +72,5 @@ checkpoints/
 *.xmodel
 
 !deployable.xmodel
+
+*.adb
