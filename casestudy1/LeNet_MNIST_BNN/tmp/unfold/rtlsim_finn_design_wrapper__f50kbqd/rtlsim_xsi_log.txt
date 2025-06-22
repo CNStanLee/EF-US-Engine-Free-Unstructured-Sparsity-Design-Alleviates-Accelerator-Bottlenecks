@@ -1,0 +1,12 @@
+Simulation starting
+No-output timeout clock cycles 1000000
+Elapsed iters 1000 inps 999 outs 0
+Elapsed since last report = 0[s]
+All outputs have now produced a sample, latency = 1358 cycles
+Simulation finished
+Number of inputs consumed 1024
+Number of outputs produced 1
+Number of clock cycles 1358
+Input done? 1
+Output done? 1
+Timeout? 0

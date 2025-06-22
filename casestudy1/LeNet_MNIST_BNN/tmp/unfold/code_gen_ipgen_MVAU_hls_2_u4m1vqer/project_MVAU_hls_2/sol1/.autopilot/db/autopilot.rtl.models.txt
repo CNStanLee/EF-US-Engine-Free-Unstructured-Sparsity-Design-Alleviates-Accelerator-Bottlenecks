@@ -1,0 +1,4 @@
+MVAU_hls_2_regslice_both
+MVAU_hls_2_regslice_both
+Matrix_Vector_Activate_Batch
+MVAU_hls_2

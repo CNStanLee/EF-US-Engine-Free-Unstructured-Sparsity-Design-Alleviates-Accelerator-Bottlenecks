@@ -1,0 +1,10 @@
+const BinaryWeights<84,10,1> weights = {{{ap_uint<84>("0xa3aa2e0681a23a6b6090e", 16)},
+  {ap_uint<84>("0x590c510a0188428884310", 16)},
+  {ap_uint<84>("0x6a23e8fe3e04985991d46", 16)},
+  {ap_uint<84>("0x2085c3ee54573a78fb6b6", 16)},
+  {ap_uint<84>("0xb1a0113cc25a45b44a400", 16)},
+  {ap_uint<84>("0x04f5cae97a25885135ef5", 16)},
+  {ap_uint<84>("0xe323915483e494d19100a", 16)},
+  {ap_uint<84>("0x9424088720996f2cedaf1", 16)},
+  {ap_uint<84>("0x3c5d400f4f5e1860c74e5", 16)},
+  {ap_uint<84>("0x15d80024645b6d666a221", 16)}}};

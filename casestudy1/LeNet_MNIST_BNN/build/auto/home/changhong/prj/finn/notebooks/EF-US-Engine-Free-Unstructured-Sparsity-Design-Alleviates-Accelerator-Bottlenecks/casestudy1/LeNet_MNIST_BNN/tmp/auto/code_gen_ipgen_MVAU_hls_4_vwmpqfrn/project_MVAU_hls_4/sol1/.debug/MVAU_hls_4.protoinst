@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"MVAU_hls_4": {
+			"proto_instances": {
+			}
+		}
+	}
+}

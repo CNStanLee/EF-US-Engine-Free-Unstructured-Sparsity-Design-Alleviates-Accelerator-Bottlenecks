@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Jun 22 18:57:25 2025
+# Process ID: 215916
+# Current directory: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/synth_out_of_context_gdlkdtqx/results_finn_design_wrapper/vivadocompile/vivadocompile.runs/synth_1
+# Command line: vivado -log finn_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source finn_design_wrapper.tcl
+# Log file: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/synth_out_of_context_gdlkdtqx/results_finn_design_wrapper/vivadocompile/vivadocompile.runs/synth_1/finn_design_wrapper.vds
+# Journal file: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/synth_out_of_context_gdlkdtqx/results_finn_design_wrapper/vivadocompile/vivadocompile.runs/synth_1/vivado.jou
+# Running On: finn_dev_root, OS: Linux, CPU Frequency: 1892.549 MHz, CPU Physical cores: 16, Host memory: 33137 MB
+#-----------------------------------------------------------
+source finn_design_wrapper.tcl -notrace

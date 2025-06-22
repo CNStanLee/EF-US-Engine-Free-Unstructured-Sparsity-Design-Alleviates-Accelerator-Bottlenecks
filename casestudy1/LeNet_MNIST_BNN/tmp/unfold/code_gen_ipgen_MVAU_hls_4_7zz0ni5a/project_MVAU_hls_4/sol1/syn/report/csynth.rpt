@@ -1,0 +1,902 @@
+
+
+================================================================
+== Synthesis Summary Report of 'MVAU_hls_4'
+================================================================
++ General Information: 
+    * Date:           Sun Jun 22 17:18:27 2025
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        project_MVAU_hls_4
+    * Solution:       sol1 (Vivado IP Flow Target)
+    * Product family: zynquplus
+    * Target device:  xczu7ev-ffvc1156-2-e
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+-----------+-----+
+    |             Modules             | Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |         |           |     |
+    |             & Loops             | Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP|    FF   |    LUT    | URAM|
+    +---------------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+-----------+-----+
+    |+ MVAU_hls_4                     |     -|  1.19|        4|  40.000|         -|        5|     -|        no|     -|   -|  7 (~0%)|  6200 (2%)|    -|
+    | + Matrix_Vector_Activate_Batch  |     -|  1.19|        1|  10.000|         -|        1|     -|        no|     -|   -|  2 (~0%)|  6163 (2%)|    -|
+    +---------------------------------+------+------+---------+--------+----------+---------+------+----------+------+----+---------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+--------+--------+
+| Interface | Register Mode | TDATA | TREADY | TVALID |
++-----------+---------------+-------+--------+--------+
+| in0_V     | both          | 88    | 1      | 1      |
+| out0_V    | both          | 80    | 1      | 1      |
++-----------+---------------+-------+--------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-------------------------+
+| Argument | Direction | Datatype                |
++----------+-----------+-------------------------+
+| in0_V    | in        | stream<ap_uint<84>, 0>& |
+| out0_V   | out       | stream<ap_uint<80>, 0>& |
++----------+-----------+-------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| in0_V    | in0_V        | interface |
+| out0_V   | out0_V       | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++---------------------------------+-----+--------+---------------+-----+--------+---------+
+| Name                            | DSP | Pragma | Variable      | Op  | Impl   | Latency |
++---------------------------------+-----+--------+---------------+-----+--------+---------+
+| + MVAU_hls_4                    | 0   |        |               |     |        |         |
+|  + Matrix_Vector_Activate_Batch | 0   |        |               |     |        |         |
+|    add_ln840_fu_235_p2          | -   |        | add_ln840     | add | fabric | 0       |
+|    add_ln840_1_fu_253_p2        | -   |        | add_ln840_1   | add | fabric | 0       |
+|    add_ln840_2_fu_1739_p2       | -   |        | add_ln840_2   | add | fabric | 0       |
+|    add_ln840_3_fu_1745_p2       | -   |        | add_ln840_3   | add | fabric | 0       |
+|    add_ln840_4_fu_1755_p2       | -   |        | add_ln840_4   | add | fabric | 0       |
+|    add_ln840_5_fu_1765_p2       | -   |        | add_ln840_5   | add | fabric | 0       |
+|    add_ln840_6_fu_1771_p2       | -   |        | add_ln840_6   | add | fabric | 0       |
+|    add_ln840_7_fu_1781_p2       | -   |        | add_ln840_7   | add | fabric | 0       |
+|    add_ln840_8_fu_1791_p2       | -   |        | add_ln840_8   | add | fabric | 0       |
+|    add_ln840_11_fu_1817_p2      | -   |        | add_ln840_11  | add | fabric | 0       |
+|    add_ln840_12_fu_1827_p2      | -   |        | add_ln840_12  | add | fabric | 0       |
+|    add_ln840_13_fu_1837_p2      | -   |        | add_ln840_13  | add | fabric | 0       |
+|    add_ln840_16_fu_1863_p2      | -   |        | add_ln840_16  | add | fabric | 0       |
+|    add_ln840_17_fu_1873_p2      | -   |        | add_ln840_17  | add | fabric | 0       |
+|    add_ln840_20_fu_1899_p2      | -   |        | add_ln840_20  | add | fabric | 0       |
+|    add_ln840_21_fu_1909_p2      | -   |        | add_ln840_21  | add | fabric | 0       |
+|    add_ln840_22_fu_1919_p2      | -   |        | add_ln840_22  | add | fabric | 0       |
+|    add_ln840_23_fu_1929_p2      | -   |        | add_ln840_23  | add | fabric | 0       |
+|    add_ln840_26_fu_1955_p2      | -   |        | add_ln840_26  | add | fabric | 0       |
+|    add_ln840_27_fu_1965_p2      | -   |        | add_ln840_27  | add | fabric | 0       |
+|    add_ln840_30_fu_1991_p2      | -   |        | add_ln840_30  | add | fabric | 0       |
+|    add_ln840_31_fu_2001_p2      | -   |        | add_ln840_31  | add | fabric | 0       |
+|    add_ln840_32_fu_2011_p2      | -   |        | add_ln840_32  | add | fabric | 0       |
+|    add_ln840_33_fu_2021_p2      | -   |        | add_ln840_33  | add | fabric | 0       |
+|    add_ln840_36_fu_2043_p2      | -   |        | add_ln840_36  | add | fabric | 0       |
+|    add_ln840_37_fu_2053_p2      | -   |        | add_ln840_37  | add | fabric | 0       |
+|    add_ln840_38_fu_2059_p2      | -   |        | add_ln840_38  | add | fabric | 0       |
+|    add_ln840_39_fu_2069_p2      | -   |        | add_ln840_39  | add | fabric | 0       |
+|    add_ln840_40_fu_2079_p2      | -   |        | add_ln840_40  | add | fabric | 0       |
+|    add_ln840_41_fu_2089_p2      | -   |        | add_ln840_41  | add | fabric | 0       |
+|    add_ln840_42_fu_2099_p2      | -   |        | add_ln840_42  | add | fabric | 0       |
+|    add_ln840_43_fu_2109_p2      | -   |        | add_ln840_43  | add | fabric | 0       |
+|    add_ln840_44_fu_2119_p2      | -   |        | add_ln840_44  | add | fabric | 0       |
+|    add_ln840_45_fu_2125_p2      | -   |        | add_ln840_45  | add | fabric | 0       |
+|    add_ln840_46_fu_2135_p2      | -   |        | add_ln840_46  | add | fabric | 0       |
+|    add_ln840_47_fu_2145_p2      | -   |        | add_ln840_47  | add | fabric | 0       |
+|    add_ln840_48_fu_2155_p2      | -   |        | add_ln840_48  | add | fabric | 0       |
+|    add_ln840_49_fu_2161_p2      | -   |        | add_ln840_49  | add | fabric | 0       |
+|    add_ln840_50_fu_2171_p2      | -   |        | add_ln840_50  | add | fabric | 0       |
+|    add_ln840_51_fu_2181_p2      | -   |        | add_ln840_51  | add | fabric | 0       |
+|    add_ln840_52_fu_2191_p2      | -   |        | add_ln840_52  | add | fabric | 0       |
+|    add_ln840_55_fu_2217_p2      | -   |        | add_ln840_55  | add | fabric | 0       |
+|    add_ln840_56_fu_2227_p2      | -   |        | add_ln840_56  | add | fabric | 0       |
+|    add_ln840_57_fu_2237_p2      | -   |        | add_ln840_57  | add | fabric | 0       |
+|    add_ln840_58_fu_2243_p2      | -   |        | add_ln840_58  | add | fabric | 0       |
+|    add_ln840_59_fu_2253_p2      | -   |        | add_ln840_59  | add | fabric | 0       |
+|    add_ln840_60_fu_2263_p2      | -   |        | add_ln840_60  | add | fabric | 0       |
+|    add_ln840_61_fu_2273_p2      | -   |        | add_ln840_61  | add | fabric | 0       |
+|    add_ln840_62_fu_2283_p2      | -   |        | add_ln840_62  | add | fabric | 0       |
+|    add_ln840_63_fu_2293_p2      | -   |        | add_ln840_63  | add | fabric | 0       |
+|    add_ln840_64_fu_2299_p2      | -   |        | add_ln840_64  | add | fabric | 0       |
+|    add_ln840_65_fu_2309_p2      | -   |        | add_ln840_65  | add | fabric | 0       |
+|    add_ln840_66_fu_2319_p2      | -   |        | add_ln840_66  | add | fabric | 0       |
+|    add_ln840_69_fu_2345_p2      | -   |        | add_ln840_69  | add | fabric | 0       |
+|    add_ln840_70_fu_2355_p2      | -   |        | add_ln840_70  | add | fabric | 0       |
+|    add_ln840_71_fu_2365_p2      | -   |        | add_ln840_71  | add | fabric | 0       |
+|    add_ln840_74_fu_2391_p2      | -   |        | add_ln840_74  | add | fabric | 0       |
+|    add_ln840_75_fu_2401_p2      | -   |        | add_ln840_75  | add | fabric | 0       |
+|    add_ln840_76_fu_2411_p2      | -   |        | add_ln840_76  | add | fabric | 0       |
+|    add_ln840_79_fu_2433_p2      | -   |        | add_ln840_79  | add | fabric | 0       |
+|    add_ln840_80_fu_2443_p2      | -   |        | add_ln840_80  | add | fabric | 0       |
+|    add_ln840_81_fu_2453_p2      | -   |        | add_ln840_81  | add | fabric | 0       |
+|    add_ln840_82_fu_2463_p2      | -   |        | add_ln840_82  | add | fabric | 0       |
+|    add_ln840_83_fu_2511_p2      | -   |        | add_ln840_83  | add | fabric | 0       |
+|    add_ln840_84_fu_2521_p2      | -   |        | add_ln840_84  | add | fabric | 0       |
+|    add_ln840_85_fu_2531_p2      | -   |        | add_ln840_85  | add | fabric | 0       |
+|    add_ln840_86_fu_2785_p2      | -   |        | add_ln840_86  | add | fabric | 0       |
+|    add_ln840_87_fu_2795_p2      | -   |        | add_ln840_87  | add | fabric | 0       |
+|    add_ln840_88_fu_2805_p2      | -   |        | add_ln840_88  | add | fabric | 0       |
+|    add_ln840_89_fu_2819_p2      | -   |        | add_ln840_89  | add | fabric | 0       |
+|    add_ln840_90_fu_2829_p2      | -   |        | add_ln840_90  | add | fabric | 0       |
+|    add_ln840_93_fu_2855_p2      | -   |        | add_ln840_93  | add | fabric | 0       |
+|    add_ln840_94_fu_2865_p2      | -   |        | add_ln840_94  | add | fabric | 0       |
+|    add_ln840_95_fu_2875_p2      | -   |        | add_ln840_95  | add | fabric | 0       |
+|    add_ln840_98_fu_2901_p2      | -   |        | add_ln840_98  | add | fabric | 0       |
+|    add_ln840_99_fu_2911_p2      | -   |        | add_ln840_99  | add | fabric | 0       |
+|    add_ln840_102_fu_2937_p2     | -   |        | add_ln840_102 | add | fabric | 0       |
+|    add_ln840_103_fu_2947_p2     | -   |        | add_ln840_103 | add | fabric | 0       |
+|    add_ln840_104_fu_2957_p2     | -   |        | add_ln840_104 | add | fabric | 0       |
+|    add_ln840_105_fu_2967_p2     | -   |        | add_ln840_105 | add | fabric | 0       |
+|    add_ln840_106_fu_2977_p2     | -   |        | add_ln840_106 | add | fabric | 0       |
+|    add_ln840_107_fu_2983_p2     | -   |        | add_ln840_107 | add | fabric | 0       |
+|    add_ln840_108_fu_2993_p2     | -   |        | add_ln840_108 | add | fabric | 0       |
+|    add_ln840_109_fu_3003_p2     | -   |        | add_ln840_109 | add | fabric | 0       |
+|    add_ln840_110_fu_3013_p2     | -   |        | add_ln840_110 | add | fabric | 0       |
+|    add_ln840_111_fu_3019_p2     | -   |        | add_ln840_111 | add | fabric | 0       |
+|    add_ln840_112_fu_3029_p2     | -   |        | add_ln840_112 | add | fabric | 0       |
+|    add_ln840_113_fu_3039_p2     | -   |        | add_ln840_113 | add | fabric | 0       |
+|    add_ln840_114_fu_3049_p2     | -   |        | add_ln840_114 | add | fabric | 0       |
+|    add_ln840_115_fu_3059_p2     | -   |        | add_ln840_115 | add | fabric | 0       |
+|    add_ln840_116_fu_3065_p2     | -   |        | add_ln840_116 | add | fabric | 0       |
+|    add_ln840_117_fu_3075_p2     | -   |        | add_ln840_117 | add | fabric | 0       |
+|    add_ln840_120_fu_3105_p2     | -   |        | add_ln840_120 | add | fabric | 0       |
+|    add_ln840_121_fu_3115_p2     | -   |        | add_ln840_121 | add | fabric | 0       |
+|    add_ln840_122_fu_3125_p2     | -   |        | add_ln840_122 | add | fabric | 0       |
+|    add_ln840_123_fu_3135_p2     | -   |        | add_ln840_123 | add | fabric | 0       |
+|    add_ln840_124_fu_3145_p2     | -   |        | add_ln840_124 | add | fabric | 0       |
+|    add_ln840_127_fu_3171_p2     | -   |        | add_ln840_127 | add | fabric | 0       |
+|    add_ln840_128_fu_3181_p2     | -   |        | add_ln840_128 | add | fabric | 0       |
+|    add_ln840_129_fu_3191_p2     | -   |        | add_ln840_129 | add | fabric | 0       |
+|    add_ln840_130_fu_3197_p2     | -   |        | add_ln840_130 | add | fabric | 0       |
+|    add_ln840_131_fu_3207_p2     | -   |        | add_ln840_131 | add | fabric | 0       |
+|    add_ln840_132_fu_3217_p2     | -   |        | add_ln840_132 | add | fabric | 0       |
+|    add_ln840_133_fu_3227_p2     | -   |        | add_ln840_133 | add | fabric | 0       |
+|    add_ln840_134_fu_3237_p2     | -   |        | add_ln840_134 | add | fabric | 0       |
+|    add_ln840_135_fu_3243_p2     | -   |        | add_ln840_135 | add | fabric | 0       |
+|    add_ln840_136_fu_3253_p2     | -   |        | add_ln840_136 | add | fabric | 0       |
+|    add_ln840_137_fu_3263_p2     | -   |        | add_ln840_137 | add | fabric | 0       |
+|    add_ln840_140_fu_3289_p2     | -   |        | add_ln840_140 | add | fabric | 0       |
+|    add_ln840_141_fu_3299_p2     | -   |        | add_ln840_141 | add | fabric | 0       |
+|    add_ln840_142_fu_3309_p2     | -   |        | add_ln840_142 | add | fabric | 0       |
+|    add_ln840_145_fu_3339_p2     | -   |        | add_ln840_145 | add | fabric | 0       |
+|    add_ln840_146_fu_3349_p2     | -   |        | add_ln840_146 | add | fabric | 0       |
+|    add_ln840_147_fu_3359_p2     | -   |        | add_ln840_147 | add | fabric | 0       |
+|    add_ln840_148_fu_3369_p2     | -   |        | add_ln840_148 | add | fabric | 0       |
+|    add_ln840_149_fu_3379_p2     | -   |        | add_ln840_149 | add | fabric | 0       |
+|    add_ln840_150_fu_3389_p2     | -   |        | add_ln840_150 | add | fabric | 0       |
+|    add_ln840_151_fu_3399_p2     | -   |        | add_ln840_151 | add | fabric | 0       |
+|    add_ln840_152_fu_3405_p2     | -   |        | add_ln840_152 | add | fabric | 0       |
+|    add_ln840_153_fu_3415_p2     | -   |        | add_ln840_153 | add | fabric | 0       |
+|    add_ln840_154_fu_3425_p2     | -   |        | add_ln840_154 | add | fabric | 0       |
+|    add_ln840_155_fu_3435_p2     | -   |        | add_ln840_155 | add | fabric | 0       |
+|    add_ln840_156_fu_3445_p2     | -   |        | add_ln840_156 | add | fabric | 0       |
+|    add_ln840_159_fu_3467_p2     | -   |        | add_ln840_159 | add | fabric | 0       |
+|    add_ln840_160_fu_3477_p2     | -   |        | add_ln840_160 | add | fabric | 0       |
+|    add_ln840_161_fu_3487_p2     | -   |        | add_ln840_161 | add | fabric | 0       |
+|    add_ln840_162_fu_3497_p2     | -   |        | add_ln840_162 | add | fabric | 0       |
+|    add_ln840_163_fu_3553_p2     | -   |        | add_ln840_163 | add | fabric | 0       |
+|    add_ln840_164_fu_3563_p2     | -   |        | add_ln840_164 | add | fabric | 0       |
+|    add_ln840_165_fu_3573_p2     | -   |        | add_ln840_165 | add | fabric | 0       |
+|    add_ln840_166_fu_3583_p2     | -   |        | add_ln840_166 | add | fabric | 0       |
+|    add_ln840_169_fu_3609_p2     | -   |        | add_ln840_169 | add | fabric | 0       |
+|    add_ln840_170_fu_3619_p2     | -   |        | add_ln840_170 | add | fabric | 0       |
+|    add_ln840_171_fu_3629_p2     | -   |        | add_ln840_171 | add | fabric | 0       |
+|    add_ln840_174_fu_3655_p2     | -   |        | add_ln840_174 | add | fabric | 0       |
+|    add_ln840_175_fu_3665_p2     | -   |        | add_ln840_175 | add | fabric | 0       |
+|    add_ln840_176_fu_3675_p2     | -   |        | add_ln840_176 | add | fabric | 0       |
+|    add_ln840_177_fu_3681_p2     | -   |        | add_ln840_177 | add | fabric | 0       |
+|    add_ln840_178_fu_3691_p2     | -   |        | add_ln840_178 | add | fabric | 0       |
+|    add_ln840_179_fu_3701_p2     | -   |        | add_ln840_179 | add | fabric | 0       |
+|    add_ln840_180_fu_3711_p2     | -   |        | add_ln840_180 | add | fabric | 0       |
+|    add_ln840_181_fu_3721_p2     | -   |        | add_ln840_181 | add | fabric | 0       |
+|    add_ln840_182_fu_3731_p2     | -   |        | add_ln840_182 | add | fabric | 0       |
+|    add_ln840_183_fu_3737_p2     | -   |        | add_ln840_183 | add | fabric | 0       |
+|    add_ln840_184_fu_3747_p2     | -   |        | add_ln840_184 | add | fabric | 0       |
+|    add_ln840_185_fu_3757_p2     | -   |        | add_ln840_185 | add | fabric | 0       |
+|    add_ln840_188_fu_3783_p2     | -   |        | add_ln840_188 | add | fabric | 0       |
+|    add_ln840_189_fu_3793_p2     | -   |        | add_ln840_189 | add | fabric | 0       |
+|    add_ln840_190_fu_3803_p2     | -   |        | add_ln840_190 | add | fabric | 0       |
+|    add_ln840_191_fu_3813_p2     | -   |        | add_ln840_191 | add | fabric | 0       |
+|    add_ln840_192_fu_3819_p2     | -   |        | add_ln840_192 | add | fabric | 0       |
+|    add_ln840_193_fu_3829_p2     | -   |        | add_ln840_193 | add | fabric | 0       |
+|    add_ln840_194_fu_3839_p2     | -   |        | add_ln840_194 | add | fabric | 0       |
+|    add_ln840_197_fu_3865_p2     | -   |        | add_ln840_197 | add | fabric | 0       |
+|    add_ln840_198_fu_3875_p2     | -   |        | add_ln840_198 | add | fabric | 0       |
+|    add_ln840_199_fu_3885_p2     | -   |        | add_ln840_199 | add | fabric | 0       |
+|    add_ln840_200_fu_3895_p2     | -   |        | add_ln840_200 | add | fabric | 0       |
+|    add_ln840_201_fu_3905_p2     | -   |        | add_ln840_201 | add | fabric | 0       |
+|    add_ln840_204_fu_3931_p2     | -   |        | add_ln840_204 | add | fabric | 0       |
+|    add_ln840_205_fu_3941_p2     | -   |        | add_ln840_205 | add | fabric | 0       |
+|    add_ln840_208_fu_3967_p2     | -   |        | add_ln840_208 | add | fabric | 0       |
+|    add_ln840_209_fu_3977_p2     | -   |        | add_ln840_209 | add | fabric | 0       |
+|    add_ln840_210_fu_3987_p2     | -   |        | add_ln840_210 | add | fabric | 0       |
+|    add_ln840_211_fu_3997_p2     | -   |        | add_ln840_211 | add | fabric | 0       |
+|    add_ln840_212_fu_4003_p2     | -   |        | add_ln840_212 | add | fabric | 0       |
+|    add_ln840_213_fu_4013_p2     | -   |        | add_ln840_213 | add | fabric | 0       |
+|    add_ln840_214_fu_4023_p2     | -   |        | add_ln840_214 | add | fabric | 0       |
+|    add_ln840_215_fu_4033_p2     | -   |        | add_ln840_215 | add | fabric | 0       |
+|    add_ln840_216_fu_4043_p2     | -   |        | add_ln840_216 | add | fabric | 0       |
+|    add_ln840_217_fu_4053_p2     | -   |        | add_ln840_217 | add | fabric | 0       |
+|    add_ln840_218_fu_4063_p2     | -   |        | add_ln840_218 | add | fabric | 0       |
+|    add_ln840_221_fu_4089_p2     | -   |        | add_ln840_221 | add | fabric | 0       |
+|    add_ln840_222_fu_4099_p2     | -   |        | add_ln840_222 | add | fabric | 0       |
+|    add_ln840_225_fu_4125_p2     | -   |        | add_ln840_225 | add | fabric | 0       |
+|    add_ln840_226_fu_4135_p2     | -   |        | add_ln840_226 | add | fabric | 0       |
+|    add_ln840_227_fu_4145_p2     | -   |        | add_ln840_227 | add | fabric | 0       |
+|    add_ln840_228_fu_4155_p2     | -   |        | add_ln840_228 | add | fabric | 0       |
+|    add_ln840_229_fu_4165_p2     | -   |        | add_ln840_229 | add | fabric | 0       |
+|    add_ln840_230_fu_4175_p2     | -   |        | add_ln840_230 | add | fabric | 0       |
+|    add_ln840_231_fu_4185_p2     | -   |        | add_ln840_231 | add | fabric | 0       |
+|    add_ln840_232_fu_4195_p2     | -   |        | add_ln840_232 | add | fabric | 0       |
+|    add_ln840_235_fu_4217_p2     | -   |        | add_ln840_235 | add | fabric | 0       |
+|    add_ln840_236_fu_4227_p2     | -   |        | add_ln840_236 | add | fabric | 0       |
+|    add_ln840_237_fu_4237_p2     | -   |        | add_ln840_237 | add | fabric | 0       |
+|    add_ln840_238_fu_4257_p2     | -   |        | add_ln840_238 | add | fabric | 0       |
+|    add_ln840_239_fu_4267_p2     | -   |        | add_ln840_239 | add | fabric | 0       |
+|    add_ln840_240_fu_4277_p2     | -   |        | add_ln840_240 | add | fabric | 0       |
+|    add_ln840_241_fu_4283_p2     | -   |        | add_ln840_241 | add | fabric | 0       |
+|    add_ln840_242_fu_4293_p2     | -   |        | add_ln840_242 | add | fabric | 0       |
+|    add_ln840_243_fu_4303_p2     | -   |        | add_ln840_243 | add | fabric | 0       |
+|    add_ln840_244_fu_4313_p2     | -   |        | add_ln840_244 | add | fabric | 0       |
+|    add_ln840_245_fu_4323_p2     | -   |        | add_ln840_245 | add | fabric | 0       |
+|    add_ln840_246_fu_4329_p2     | -   |        | add_ln840_246 | add | fabric | 0       |
+|    add_ln840_247_fu_4339_p2     | -   |        | add_ln840_247 | add | fabric | 0       |
+|    add_ln840_248_fu_4349_p2     | -   |        | add_ln840_248 | add | fabric | 0       |
+|    add_ln840_249_fu_4359_p2     | -   |        | add_ln840_249 | add | fabric | 0       |
+|    add_ln840_252_fu_4385_p2     | -   |        | add_ln840_252 | add | fabric | 0       |
+|    add_ln840_253_fu_4395_p2     | -   |        | add_ln840_253 | add | fabric | 0       |
+|    add_ln840_254_fu_4405_p2     | -   |        | add_ln840_254 | add | fabric | 0       |
+|    add_ln840_255_fu_4415_p2     | -   |        | add_ln840_255 | add | fabric | 0       |
+|    add_ln840_256_fu_4425_p2     | -   |        | add_ln840_256 | add | fabric | 0       |
+|    add_ln840_257_fu_4435_p2     | -   |        | add_ln840_257 | add | fabric | 0       |
+|    add_ln840_258_fu_4445_p2     | -   |        | add_ln840_258 | add | fabric | 0       |
+|    add_ln840_259_fu_4455_p2     | -   |        | add_ln840_259 | add | fabric | 0       |
+|    add_ln840_260_fu_4461_p2     | -   |        | add_ln840_260 | add | fabric | 0       |
+|    add_ln840_261_fu_4471_p2     | -   |        | add_ln840_261 | add | fabric | 0       |
+|    add_ln840_262_fu_4481_p2     | -   |        | add_ln840_262 | add | fabric | 0       |
+|    add_ln840_263_fu_4491_p2     | -   |        | add_ln840_263 | add | fabric | 0       |
+|    add_ln840_264_fu_4501_p2     | -   |        | add_ln840_264 | add | fabric | 0       |
+|    add_ln840_265_fu_4511_p2     | -   |        | add_ln840_265 | add | fabric | 0       |
+|    add_ln840_266_fu_4521_p2     | -   |        | add_ln840_266 | add | fabric | 0       |
+|    add_ln840_269_fu_4547_p2     | -   |        | add_ln840_269 | add | fabric | 0       |
+|    add_ln840_270_fu_4557_p2     | -   |        | add_ln840_270 | add | fabric | 0       |
+|    add_ln840_273_fu_4583_p2     | -   |        | add_ln840_273 | add | fabric | 0       |
+|    add_ln840_274_fu_4593_p2     | -   |        | add_ln840_274 | add | fabric | 0       |
+|    add_ln840_275_fu_4603_p2     | -   |        | add_ln840_275 | add | fabric | 0       |
+|    add_ln840_276_fu_4613_p2     | -   |        | add_ln840_276 | add | fabric | 0       |
+|    add_ln840_277_fu_4623_p2     | -   |        | add_ln840_277 | add | fabric | 0       |
+|    add_ln840_278_fu_4633_p2     | -   |        | add_ln840_278 | add | fabric | 0       |
+|    add_ln840_279_fu_4643_p2     | -   |        | add_ln840_279 | add | fabric | 0       |
+|    add_ln840_280_fu_4657_p2     | -   |        | add_ln840_280 | add | fabric | 0       |
+|    add_ln840_281_fu_4667_p2     | -   |        | add_ln840_281 | add | fabric | 0       |
+|    add_ln840_282_fu_4677_p2     | -   |        | add_ln840_282 | add | fabric | 0       |
+|    add_ln840_283_fu_4687_p2     | -   |        | add_ln840_283 | add | fabric | 0       |
+|    add_ln840_286_fu_4713_p2     | -   |        | add_ln840_286 | add | fabric | 0       |
+|    add_ln840_287_fu_4723_p2     | -   |        | add_ln840_287 | add | fabric | 0       |
+|    add_ln840_290_fu_4749_p2     | -   |        | add_ln840_290 | add | fabric | 0       |
+|    add_ln840_291_fu_4759_p2     | -   |        | add_ln840_291 | add | fabric | 0       |
+|    add_ln840_292_fu_4769_p2     | -   |        | add_ln840_292 | add | fabric | 0       |
+|    add_ln840_293_fu_4779_p2     | -   |        | add_ln840_293 | add | fabric | 0       |
+|    add_ln840_294_fu_4789_p2     | -   |        | add_ln840_294 | add | fabric | 0       |
+|    add_ln840_295_fu_4799_p2     | -   |        | add_ln840_295 | add | fabric | 0       |
+|    add_ln840_296_fu_4809_p2     | -   |        | add_ln840_296 | add | fabric | 0       |
+|    add_ln840_299_fu_4835_p2     | -   |        | add_ln840_299 | add | fabric | 0       |
+|    add_ln840_300_fu_4845_p2     | -   |        | add_ln840_300 | add | fabric | 0       |
+|    add_ln840_301_fu_4855_p2     | -   |        | add_ln840_301 | add | fabric | 0       |
+|    add_ln840_302_fu_4865_p2     | -   |        | add_ln840_302 | add | fabric | 0       |
+|    add_ln840_303_fu_4875_p2     | -   |        | add_ln840_303 | add | fabric | 0       |
+|    add_ln840_304_fu_4885_p2     | -   |        | add_ln840_304 | add | fabric | 0       |
+|    add_ln840_305_fu_4895_p2     | -   |        | add_ln840_305 | add | fabric | 0       |
+|    add_ln840_306_fu_4905_p2     | -   |        | add_ln840_306 | add | fabric | 0       |
+|    add_ln840_309_fu_4927_p2     | -   |        | add_ln840_309 | add | fabric | 0       |
+|    add_ln840_310_fu_4937_p2     | -   |        | add_ln840_310 | add | fabric | 0       |
+|    add_ln840_311_fu_4947_p2     | -   |        | add_ln840_311 | add | fabric | 0       |
+|    add_ln840_312_fu_4977_p2     | -   |        | add_ln840_312 | add | fabric | 0       |
+|    add_ln840_313_fu_4987_p2     | -   |        | add_ln840_313 | add | fabric | 0       |
+|    add_ln840_314_fu_4997_p2     | -   |        | add_ln840_314 | add | fabric | 0       |
+|    add_ln840_315_fu_5007_p2     | -   |        | add_ln840_315 | add | fabric | 0       |
+|    add_ln840_318_fu_5033_p2     | -   |        | add_ln840_318 | add | fabric | 0       |
+|    add_ln840_319_fu_5043_p2     | -   |        | add_ln840_319 | add | fabric | 0       |
+|    add_ln840_320_fu_5053_p2     | -   |        | add_ln840_320 | add | fabric | 0       |
+|    add_ln840_323_fu_5079_p2     | -   |        | add_ln840_323 | add | fabric | 0       |
+|    add_ln840_324_fu_5089_p2     | -   |        | add_ln840_324 | add | fabric | 0       |
+|    add_ln840_327_fu_5115_p2     | -   |        | add_ln840_327 | add | fabric | 0       |
+|    add_ln840_328_fu_5125_p2     | -   |        | add_ln840_328 | add | fabric | 0       |
+|    add_ln840_329_fu_5135_p2     | -   |        | add_ln840_329 | add | fabric | 0       |
+|    add_ln840_330_fu_5145_p2     | -   |        | add_ln840_330 | add | fabric | 0       |
+|    add_ln840_331_fu_5155_p2     | -   |        | add_ln840_331 | add | fabric | 0       |
+|    add_ln840_332_fu_5165_p2     | -   |        | add_ln840_332 | add | fabric | 0       |
+|    add_ln840_333_fu_5175_p2     | -   |        | add_ln840_333 | add | fabric | 0       |
+|    add_ln840_334_fu_5185_p2     | -   |        | add_ln840_334 | add | fabric | 0       |
+|    add_ln840_335_fu_5195_p2     | -   |        | add_ln840_335 | add | fabric | 0       |
+|    add_ln840_336_fu_5205_p2     | -   |        | add_ln840_336 | add | fabric | 0       |
+|    add_ln840_337_fu_5215_p2     | -   |        | add_ln840_337 | add | fabric | 0       |
+|    add_ln840_340_fu_5241_p2     | -   |        | add_ln840_340 | add | fabric | 0       |
+|    add_ln840_341_fu_5251_p2     | -   |        | add_ln840_341 | add | fabric | 0       |
+|    add_ln840_344_fu_5277_p2     | -   |        | add_ln840_344 | add | fabric | 0       |
+|    add_ln840_345_fu_5287_p2     | -   |        | add_ln840_345 | add | fabric | 0       |
+|    add_ln840_346_fu_5297_p2     | -   |        | add_ln840_346 | add | fabric | 0       |
+|    add_ln840_347_fu_5307_p2     | -   |        | add_ln840_347 | add | fabric | 0       |
+|    add_ln840_350_fu_5333_p2     | -   |        | add_ln840_350 | add | fabric | 0       |
+|    add_ln840_351_fu_5343_p2     | -   |        | add_ln840_351 | add | fabric | 0       |
+|    add_ln840_354_fu_5369_p2     | -   |        | add_ln840_354 | add | fabric | 0       |
+|    add_ln840_355_fu_5379_p2     | -   |        | add_ln840_355 | add | fabric | 0       |
+|    add_ln840_356_fu_5389_p2     | -   |        | add_ln840_356 | add | fabric | 0       |
+|    add_ln840_357_fu_5399_p2     | -   |        | add_ln840_357 | add | fabric | 0       |
+|    add_ln840_358_fu_5405_p2     | -   |        | add_ln840_358 | add | fabric | 0       |
+|    add_ln840_359_fu_5415_p2     | -   |        | add_ln840_359 | add | fabric | 0       |
+|    add_ln840_360_fu_5429_p2     | -   |        | add_ln840_360 | add | fabric | 0       |
+|    add_ln840_361_fu_5435_p2     | -   |        | add_ln840_361 | add | fabric | 0       |
+|    add_ln840_362_fu_5445_p2     | -   |        | add_ln840_362 | add | fabric | 0       |
+|    add_ln840_363_fu_5455_p2     | -   |        | add_ln840_363 | add | fabric | 0       |
+|    add_ln840_364_fu_5465_p2     | -   |        | add_ln840_364 | add | fabric | 0       |
+|    add_ln840_365_fu_5475_p2     | -   |        | add_ln840_365 | add | fabric | 0       |
+|    add_ln840_366_fu_5485_p2     | -   |        | add_ln840_366 | add | fabric | 0       |
+|    add_ln840_367_fu_5495_p2     | -   |        | add_ln840_367 | add | fabric | 0       |
+|    add_ln840_368_fu_5505_p2     | -   |        | add_ln840_368 | add | fabric | 0       |
+|    add_ln840_369_fu_5511_p2     | -   |        | add_ln840_369 | add | fabric | 0       |
+|    add_ln840_370_fu_5521_p2     | -   |        | add_ln840_370 | add | fabric | 0       |
+|    add_ln840_371_fu_5531_p2     | -   |        | add_ln840_371 | add | fabric | 0       |
+|    add_ln840_374_fu_5557_p2     | -   |        | add_ln840_374 | add | fabric | 0       |
+|    add_ln840_375_fu_5571_p2     | -   |        | add_ln840_375 | add | fabric | 0       |
+|    add_ln840_376_fu_5581_p2     | -   |        | add_ln840_376 | add | fabric | 0       |
+|    add_ln840_379_fu_5603_p2     | -   |        | add_ln840_379 | add | fabric | 0       |
+|    add_ln840_380_fu_5613_p2     | -   |        | add_ln840_380 | add | fabric | 0       |
+|    add_ln840_381_fu_5623_p2     | -   |        | add_ln840_381 | add | fabric | 0       |
+|    add_ln840_382_fu_5633_p2     | -   |        | add_ln840_382 | add | fabric | 0       |
+|    add_ln840_383_fu_5639_p2     | -   |        | add_ln840_383 | add | fabric | 0       |
+|    add_ln840_384_fu_5649_p2     | -   |        | add_ln840_384 | add | fabric | 0       |
+|    add_ln840_385_fu_5655_p2     | -   |        | add_ln840_385 | add | fabric | 0       |
+|    add_ln840_386_fu_5665_p2     | -   |        | add_ln840_386 | add | fabric | 0       |
+|    add_ln840_387_fu_5675_p2     | -   |        | add_ln840_387 | add | fabric | 0       |
+|    add_ln840_388_fu_5685_p2     | -   |        | add_ln840_388 | add | fabric | 0       |
+|    add_ln840_389_fu_5695_p2     | -   |        | add_ln840_389 | add | fabric | 0       |
+|    add_ln840_390_fu_5705_p2     | -   |        | add_ln840_390 | add | fabric | 0       |
+|    add_ln840_391_fu_5715_p2     | -   |        | add_ln840_391 | add | fabric | 0       |
+|    add_ln840_394_fu_5741_p2     | -   |        | add_ln840_394 | add | fabric | 0       |
+|    add_ln840_395_fu_5751_p2     | -   |        | add_ln840_395 | add | fabric | 0       |
+|    add_ln840_398_fu_5777_p2     | -   |        | add_ln840_398 | add | fabric | 0       |
+|    add_ln840_399_fu_5787_p2     | -   |        | add_ln840_399 | add | fabric | 0       |
+|    add_ln840_400_fu_5797_p2     | -   |        | add_ln840_400 | add | fabric | 0       |
+|    add_ln840_401_fu_5807_p2     | -   |        | add_ln840_401 | add | fabric | 0       |
+|    add_ln840_404_fu_5833_p2     | -   |        | add_ln840_404 | add | fabric | 0       |
+|    add_ln840_405_fu_5843_p2     | -   |        | add_ln840_405 | add | fabric | 0       |
+|    add_ln840_408_fu_5869_p2     | -   |        | add_ln840_408 | add | fabric | 0       |
+|    add_ln840_409_fu_5879_p2     | -   |        | add_ln840_409 | add | fabric | 0       |
+|    add_ln840_410_fu_5889_p2     | -   |        | add_ln840_410 | add | fabric | 0       |
+|    add_ln840_413_fu_5915_p2     | -   |        | add_ln840_413 | add | fabric | 0       |
+|    add_ln840_414_fu_5925_p2     | -   |        | add_ln840_414 | add | fabric | 0       |
+|    add_ln840_417_fu_5951_p2     | -   |        | add_ln840_417 | add | fabric | 0       |
+|    add_ln840_418_fu_5961_p2     | -   |        | add_ln840_418 | add | fabric | 0       |
+|    add_ln840_419_fu_5971_p2     | -   |        | add_ln840_419 | add | fabric | 0       |
+|    add_ln840_420_fu_5981_p2     | -   |        | add_ln840_420 | add | fabric | 0       |
+|    add_ln840_423_fu_6011_p2     | -   |        | add_ln840_423 | add | fabric | 0       |
+|    add_ln840_424_fu_6021_p2     | -   |        | add_ln840_424 | add | fabric | 0       |
+|    add_ln840_425_fu_6031_p2     | -   |        | add_ln840_425 | add | fabric | 0       |
+|    add_ln840_426_fu_6041_p2     | -   |        | add_ln840_426 | add | fabric | 0       |
+|    add_ln840_427_fu_6051_p2     | -   |        | add_ln840_427 | add | fabric | 0       |
+|    add_ln840_428_fu_6061_p2     | -   |        | add_ln840_428 | add | fabric | 0       |
+|    add_ln840_429_fu_6071_p2     | -   |        | add_ln840_429 | add | fabric | 0       |
+|    add_ln840_430_fu_6081_p2     | -   |        | add_ln840_430 | add | fabric | 0       |
+|    add_ln840_431_fu_6091_p2     | -   |        | add_ln840_431 | add | fabric | 0       |
+|    add_ln840_432_fu_6101_p2     | -   |        | add_ln840_432 | add | fabric | 0       |
+|    add_ln840_433_fu_6111_p2     | -   |        | add_ln840_433 | add | fabric | 0       |
+|    add_ln840_434_fu_6121_p2     | -   |        | add_ln840_434 | add | fabric | 0       |
+|    add_ln840_435_fu_6131_p2     | -   |        | add_ln840_435 | add | fabric | 0       |
+|    add_ln840_438_fu_6161_p2     | -   |        | add_ln840_438 | add | fabric | 0       |
+|    add_ln840_439_fu_6171_p2     | -   |        | add_ln840_439 | add | fabric | 0       |
+|    add_ln840_440_fu_6181_p2     | -   |        | add_ln840_440 | add | fabric | 0       |
+|    add_ln840_441_fu_6191_p2     | -   |        | add_ln840_441 | add | fabric | 0       |
+|    add_ln840_442_fu_6201_p2     | -   |        | add_ln840_442 | add | fabric | 0       |
+|    add_ln840_443_fu_6211_p2     | -   |        | add_ln840_443 | add | fabric | 0       |
+|    add_ln840_446_fu_6237_p2     | -   |        | add_ln840_446 | add | fabric | 0       |
+|    add_ln840_447_fu_6247_p2     | -   |        | add_ln840_447 | add | fabric | 0       |
+|    add_ln840_452_fu_6289_p2     | -   |        | add_ln840_452 | add | fabric | 0       |
+|    add_ln840_453_fu_6299_p2     | -   |        | add_ln840_453 | add | fabric | 0       |
+|    add_ln840_454_fu_6309_p2     | -   |        | add_ln840_454 | add | fabric | 0       |
+|    add_ln840_455_fu_6319_p2     | -   |        | add_ln840_455 | add | fabric | 0       |
+|    add_ln840_456_fu_6329_p2     | -   |        | add_ln840_456 | add | fabric | 0       |
+|    add_ln840_457_fu_6339_p2     | -   |        | add_ln840_457 | add | fabric | 0       |
+|    add_ln840_458_fu_6349_p2     | -   |        | add_ln840_458 | add | fabric | 0       |
+|    add_ln840_461_fu_6375_p2     | -   |        | add_ln840_461 | add | fabric | 0       |
+|    add_ln840_462_fu_6385_p2     | -   |        | add_ln840_462 | add | fabric | 0       |
+|    add_ln840_463_fu_6395_p2     | -   |        | add_ln840_463 | add | fabric | 0       |
+|    add_ln840_466_fu_6421_p2     | -   |        | add_ln840_466 | add | fabric | 0       |
+|    add_ln840_467_fu_6431_p2     | -   |        | add_ln840_467 | add | fabric | 0       |
+|    add_ln840_470_fu_6457_p2     | -   |        | add_ln840_470 | add | fabric | 0       |
+|    add_ln840_471_fu_6467_p2     | -   |        | add_ln840_471 | add | fabric | 0       |
+|    add_ln840_472_fu_6477_p2     | -   |        | add_ln840_472 | add | fabric | 0       |
+|    add_ln840_473_fu_6487_p2     | -   |        | add_ln840_473 | add | fabric | 0       |
+|    add_ln840_476_fu_6513_p2     | -   |        | add_ln840_476 | add | fabric | 0       |
+|    add_ln840_477_fu_6523_p2     | -   |        | add_ln840_477 | add | fabric | 0       |
+|    add_ln840_478_fu_6533_p2     | -   |        | add_ln840_478 | add | fabric | 0       |
+|    add_ln840_479_fu_6543_p2     | -   |        | add_ln840_479 | add | fabric | 0       |
+|    add_ln840_480_fu_6553_p2     | -   |        | add_ln840_480 | add | fabric | 0       |
+|    add_ln840_483_fu_6579_p2     | -   |        | add_ln840_483 | add | fabric | 0       |
+|    add_ln840_484_fu_6589_p2     | -   |        | add_ln840_484 | add | fabric | 0       |
+|    add_ln840_486_fu_6605_p2     | -   |        | add_ln840_486 | add | fabric | 0       |
+|    add_ln840_488_fu_6625_p2     | -   |        | add_ln840_488 | add | fabric | 0       |
+|    add_ln840_489_fu_6635_p2     | -   |        | add_ln840_489 | add | fabric | 0       |
+|    add_ln840_490_fu_6645_p2     | -   |        | add_ln840_490 | add | fabric | 0       |
+|    add_ln840_493_fu_6675_p2     | -   |        | add_ln840_493 | add | fabric | 0       |
+|    add_ln840_494_fu_6685_p2     | -   |        | add_ln840_494 | add | fabric | 0       |
+|    add_ln840_497_fu_6711_p2     | -   |        | add_ln840_497 | add | fabric | 0       |
+|    add_ln840_498_fu_6721_p2     | -   |        | add_ln840_498 | add | fabric | 0       |
+|    add_ln840_499_fu_6731_p2     | -   |        | add_ln840_499 | add | fabric | 0       |
+|    add_ln840_502_fu_6757_p2     | -   |        | add_ln840_502 | add | fabric | 0       |
+|    add_ln840_503_fu_6767_p2     | -   |        | add_ln840_503 | add | fabric | 0       |
+|    add_ln840_504_fu_6773_p2     | -   |        | add_ln840_504 | add | fabric | 0       |
+|    add_ln840_505_fu_6783_p2     | -   |        | add_ln840_505 | add | fabric | 0       |
+|    add_ln840_506_fu_6793_p2     | -   |        | add_ln840_506 | add | fabric | 0       |
+|    add_ln840_507_fu_6803_p2     | -   |        | add_ln840_507 | add | fabric | 0       |
+|    add_ln840_508_fu_6817_p2     | -   |        | add_ln840_508 | add | fabric | 0       |
+|    add_ln840_509_fu_6827_p2     | -   |        | add_ln840_509 | add | fabric | 0       |
+|    add_ln840_510_fu_6837_p2     | -   |        | add_ln840_510 | add | fabric | 0       |
+|    add_ln840_511_fu_6847_p2     | -   |        | add_ln840_511 | add | fabric | 0       |
+|    add_ln840_512_fu_6853_p2     | -   |        | add_ln840_512 | add | fabric | 0       |
+|    add_ln840_513_fu_6863_p2     | -   |        | add_ln840_513 | add | fabric | 0       |
+|    add_ln840_514_fu_6873_p2     | -   |        | add_ln840_514 | add | fabric | 0       |
+|    add_ln840_515_fu_6883_p2     | -   |        | add_ln840_515 | add | fabric | 0       |
+|    add_ln840_516_fu_6893_p2     | -   |        | add_ln840_516 | add | fabric | 0       |
+|    add_ln840_517_fu_6903_p2     | -   |        | add_ln840_517 | add | fabric | 0       |
+|    add_ln840_518_fu_6913_p2     | -   |        | add_ln840_518 | add | fabric | 0       |
+|    add_ln840_519_fu_6923_p2     | -   |        | add_ln840_519 | add | fabric | 0       |
+|    add_ln840_520_fu_6933_p2     | -   |        | add_ln840_520 | add | fabric | 0       |
+|    add_ln840_521_fu_6943_p2     | -   |        | add_ln840_521 | add | fabric | 0       |
+|    add_ln840_522_fu_6953_p2     | -   |        | add_ln840_522 | add | fabric | 0       |
+|    add_ln840_523_fu_6963_p2     | -   |        | add_ln840_523 | add | fabric | 0       |
+|    add_ln840_524_fu_6973_p2     | -   |        | add_ln840_524 | add | fabric | 0       |
+|    add_ln840_525_fu_6983_p2     | -   |        | add_ln840_525 | add | fabric | 0       |
+|    add_ln840_526_fu_6989_p2     | -   |        | add_ln840_526 | add | fabric | 0       |
+|    add_ln840_529_fu_7015_p2     | -   |        | add_ln840_529 | add | fabric | 0       |
+|    add_ln840_530_fu_7025_p2     | -   |        | add_ln840_530 | add | fabric | 0       |
+|    add_ln840_533_fu_7051_p2     | -   |        | add_ln840_533 | add | fabric | 0       |
+|    add_ln840_534_fu_7061_p2     | -   |        | add_ln840_534 | add | fabric | 0       |
+|    add_ln840_535_fu_7071_p2     | -   |        | add_ln840_535 | add | fabric | 0       |
+|    add_ln840_538_fu_7097_p2     | -   |        | add_ln840_538 | add | fabric | 0       |
+|    add_ln840_539_fu_7107_p2     | -   |        | add_ln840_539 | add | fabric | 0       |
+|    add_ln840_540_fu_7117_p2     | -   |        | add_ln840_540 | add | fabric | 0       |
+|    add_ln840_541_fu_7123_p2     | -   |        | add_ln840_541 | add | fabric | 0       |
+|    add_ln840_542_fu_7133_p2     | -   |        | add_ln840_542 | add | fabric | 0       |
+|    add_ln840_543_fu_7143_p2     | -   |        | add_ln840_543 | add | fabric | 0       |
+|    add_ln840_544_fu_7153_p2     | -   |        | add_ln840_544 | add | fabric | 0       |
+|    add_ln840_545_fu_7163_p2     | -   |        | add_ln840_545 | add | fabric | 0       |
+|    add_ln840_548_fu_7189_p2     | -   |        | add_ln840_548 | add | fabric | 0       |
+|    add_ln840_549_fu_7199_p2     | -   |        | add_ln840_549 | add | fabric | 0       |
+|    add_ln840_550_fu_7209_p2     | -   |        | add_ln840_550 | add | fabric | 0       |
+|    add_ln840_551_fu_7219_p2     | -   |        | add_ln840_551 | add | fabric | 0       |
+|    add_ln840_552_fu_7229_p2     | -   |        | add_ln840_552 | add | fabric | 0       |
+|    add_ln840_553_fu_7239_p2     | -   |        | add_ln840_553 | add | fabric | 0       |
+|    add_ln840_556_fu_7265_p2     | -   |        | add_ln840_556 | add | fabric | 0       |
+|    add_ln840_557_fu_7275_p2     | -   |        | add_ln840_557 | add | fabric | 0       |
+|    add_ln840_560_fu_7301_p2     | -   |        | add_ln840_560 | add | fabric | 0       |
+|    add_ln840_561_fu_7311_p2     | -   |        | add_ln840_561 | add | fabric | 0       |
+|    add_ln840_562_fu_7321_p2     | -   |        | add_ln840_562 | add | fabric | 0       |
+|    add_ln840_563_fu_7331_p2     | -   |        | add_ln840_563 | add | fabric | 0       |
+|    add_ln840_566_fu_7357_p2     | -   |        | add_ln840_566 | add | fabric | 0       |
+|    add_ln840_567_fu_7367_p2     | -   |        | add_ln840_567 | add | fabric | 0       |
+|    add_ln840_568_fu_7377_p2     | -   |        | add_ln840_568 | add | fabric | 0       |
+|    add_ln840_569_fu_7387_p2     | -   |        | add_ln840_569 | add | fabric | 0       |
+|    add_ln840_570_fu_7397_p2     | -   |        | add_ln840_570 | add | fabric | 0       |
+|    add_ln840_571_fu_7407_p2     | -   |        | add_ln840_571 | add | fabric | 0       |
+|    add_ln840_572_fu_7417_p2     | -   |        | add_ln840_572 | add | fabric | 0       |
+|    add_ln840_573_fu_7427_p2     | -   |        | add_ln840_573 | add | fabric | 0       |
+|    add_ln840_574_fu_7437_p2     | -   |        | add_ln840_574 | add | fabric | 0       |
+|    add_ln840_575_fu_7447_p2     | -   |        | add_ln840_575 | add | fabric | 0       |
+|    add_ln840_576_fu_7453_p2     | -   |        | add_ln840_576 | add | fabric | 0       |
+|    add_ln840_577_fu_7463_p2     | -   |        | add_ln840_577 | add | fabric | 0       |
+|    add_ln840_578_fu_7473_p2     | -   |        | add_ln840_578 | add | fabric | 0       |
+|    add_ln840_579_fu_7483_p2     | -   |        | add_ln840_579 | add | fabric | 0       |
+|    add_ln840_580_fu_7493_p2     | -   |        | add_ln840_580 | add | fabric | 0       |
+|    add_ln840_581_fu_7503_p2     | -   |        | add_ln840_581 | add | fabric | 0       |
+|    add_ln840_582_fu_7513_p2     | -   |        | add_ln840_582 | add | fabric | 0       |
+|    add_ln840_583_fu_7523_p2     | -   |        | add_ln840_583 | add | fabric | 0       |
+|    add_ln840_584_fu_7533_p2     | -   |        | add_ln840_584 | add | fabric | 0       |
+|    add_ln840_585_fu_7543_p2     | -   |        | add_ln840_585 | add | fabric | 0       |
+|    add_ln840_586_fu_7553_p2     | -   |        | add_ln840_586 | add | fabric | 0       |
+|    add_ln840_591_fu_7599_p2     | -   |        | add_ln840_591 | add | fabric | 0       |
+|    add_ln840_592_fu_7609_p2     | -   |        | add_ln840_592 | add | fabric | 0       |
+|    add_ln840_593_fu_7619_p2     | -   |        | add_ln840_593 | add | fabric | 0       |
+|    add_ln840_594_fu_7629_p2     | -   |        | add_ln840_594 | add | fabric | 0       |
+|    add_ln840_595_fu_7639_p2     | -   |        | add_ln840_595 | add | fabric | 0       |
+|    add_ln840_596_fu_7649_p2     | -   |        | add_ln840_596 | add | fabric | 0       |
+|    add_ln840_597_fu_7659_p2     | -   |        | add_ln840_597 | add | fabric | 0       |
+|    add_ln840_598_fu_7669_p2     | -   |        | add_ln840_598 | add | fabric | 0       |
+|    add_ln840_599_fu_7679_p2     | -   |        | add_ln840_599 | add | fabric | 0       |
+|    add_ln840_600_fu_7689_p2     | -   |        | add_ln840_600 | add | fabric | 0       |
+|    add_ln840_603_fu_7715_p2     | -   |        | add_ln840_603 | add | fabric | 0       |
+|    add_ln840_604_fu_7725_p2     | -   |        | add_ln840_604 | add | fabric | 0       |
+|    add_ln840_607_fu_7751_p2     | -   |        | add_ln840_607 | add | fabric | 0       |
+|    add_ln840_608_fu_7761_p2     | -   |        | add_ln840_608 | add | fabric | 0       |
+|    add_ln840_609_fu_7771_p2     | -   |        | add_ln840_609 | add | fabric | 0       |
+|    add_ln840_612_fu_7801_p2     | -   |        | add_ln840_612 | add | fabric | 0       |
+|    add_ln840_615_fu_7831_p2     | -   |        | add_ln840_615 | add | fabric | 0       |
+|    add_ln840_616_fu_7841_p2     | -   |        | add_ln840_616 | add | fabric | 0       |
+|    add_ln840_619_fu_7867_p2     | -   |        | add_ln840_619 | add | fabric | 0       |
+|    add_ln840_620_fu_7881_p2     | -   |        | add_ln840_620 | add | fabric | 0       |
+|    add_ln840_621_fu_7891_p2     | -   |        | add_ln840_621 | add | fabric | 0       |
+|    add_ln840_622_fu_7901_p2     | -   |        | add_ln840_622 | add | fabric | 0       |
+|    add_ln840_623_fu_7911_p2     | -   |        | add_ln840_623 | add | fabric | 0       |
+|    add_ln840_624_fu_7921_p2     | -   |        | add_ln840_624 | add | fabric | 0       |
+|    add_ln840_625_fu_7931_p2     | -   |        | add_ln840_625 | add | fabric | 0       |
+|    add_ln840_626_fu_7941_p2     | -   |        | add_ln840_626 | add | fabric | 0       |
+|    add_ln840_627_fu_7951_p2     | -   |        | add_ln840_627 | add | fabric | 0       |
+|    add_ln840_628_fu_7961_p2     | -   |        | add_ln840_628 | add | fabric | 0       |
+|    add_ln840_629_fu_7971_p2     | -   |        | add_ln840_629 | add | fabric | 0       |
+|    add_ln840_630_fu_7981_p2     | -   |        | add_ln840_630 | add | fabric | 0       |
+|    add_ln840_631_fu_7991_p2     | -   |        | add_ln840_631 | add | fabric | 0       |
+|    add_ln840_632_fu_8001_p2     | -   |        | add_ln840_632 | add | fabric | 0       |
+|    add_ln840_633_fu_8011_p2     | -   |        | add_ln840_633 | add | fabric | 0       |
+|    add_ln840_634_fu_8021_p2     | -   |        | add_ln840_634 | add | fabric | 0       |
+|    add_ln840_635_fu_8031_p2     | -   |        | add_ln840_635 | add | fabric | 0       |
+|    add_ln840_636_fu_8041_p2     | -   |        | add_ln840_636 | add | fabric | 0       |
+|    add_ln840_637_fu_8051_p2     | -   |        | add_ln840_637 | add | fabric | 0       |
+|    add_ln840_638_fu_8061_p2     | -   |        | add_ln840_638 | add | fabric | 0       |
+|    add_ln840_639_fu_8071_p2     | -   |        | add_ln840_639 | add | fabric | 0       |
+|    add_ln840_640_fu_8081_p2     | -   |        | add_ln840_640 | add | fabric | 0       |
+|    add_ln840_641_fu_8087_p2     | -   |        | add_ln840_641 | add | fabric | 0       |
+|    add_ln840_642_fu_8097_p2     | -   |        | add_ln840_642 | add | fabric | 0       |
+|    add_ln840_643_fu_8107_p2     | -   |        | add_ln840_643 | add | fabric | 0       |
+|    add_ln840_644_fu_8117_p2     | -   |        | add_ln840_644 | add | fabric | 0       |
+|    add_ln840_647_fu_8143_p2     | -   |        | add_ln840_647 | add | fabric | 0       |
+|    add_ln840_648_fu_8153_p2     | -   |        | add_ln840_648 | add | fabric | 0       |
+|    add_ln840_649_fu_8163_p2     | -   |        | add_ln840_649 | add | fabric | 0       |
+|    add_ln840_650_fu_8173_p2     | -   |        | add_ln840_650 | add | fabric | 0       |
+|    add_ln840_653_fu_8195_p2     | -   |        | add_ln840_653 | add | fabric | 0       |
+|    add_ln840_654_fu_8205_p2     | -   |        | add_ln840_654 | add | fabric | 0       |
+|    add_ln840_655_fu_8215_p2     | -   |        | add_ln840_655 | add | fabric | 0       |
+|    add_ln840_656_fu_8225_p2     | -   |        | add_ln840_656 | add | fabric | 0       |
+|    add_ln840_659_fu_8251_p2     | -   |        | add_ln840_659 | add | fabric | 0       |
+|    add_ln840_660_fu_8261_p2     | -   |        | add_ln840_660 | add | fabric | 0       |
+|    add_ln840_663_fu_8287_p2     | -   |        | add_ln840_663 | add | fabric | 0       |
+|    add_ln840_664_fu_8297_p2     | -   |        | add_ln840_664 | add | fabric | 0       |
+|    add_ln840_665_fu_8307_p2     | -   |        | add_ln840_665 | add | fabric | 0       |
+|    add_ln840_666_fu_8317_p2     | -   |        | add_ln840_666 | add | fabric | 0       |
+|    add_ln840_667_fu_8327_p2     | -   |        | add_ln840_667 | add | fabric | 0       |
+|    add_ln840_668_fu_8337_p2     | -   |        | add_ln840_668 | add | fabric | 0       |
+|    add_ln840_669_fu_8347_p2     | -   |        | add_ln840_669 | add | fabric | 0       |
+|    add_ln840_670_fu_8357_p2     | -   |        | add_ln840_670 | add | fabric | 0       |
+|    add_ln840_673_fu_8387_p2     | -   |        | add_ln840_673 | add | fabric | 0       |
+|    add_ln840_674_fu_8397_p2     | -   |        | add_ln840_674 | add | fabric | 0       |
+|    add_ln840_677_fu_8423_p2     | -   |        | add_ln840_677 | add | fabric | 0       |
+|    add_ln840_678_fu_8433_p2     | -   |        | add_ln840_678 | add | fabric | 0       |
+|    add_ln840_679_fu_8443_p2     | -   |        | add_ln840_679 | add | fabric | 0       |
+|    add_ln840_680_fu_8453_p2     | -   |        | add_ln840_680 | add | fabric | 0       |
+|    add_ln840_681_fu_8463_p2     | -   |        | add_ln840_681 | add | fabric | 0       |
+|    add_ln840_684_fu_8489_p2     | -   |        | add_ln840_684 | add | fabric | 0       |
+|    add_ln840_685_fu_8499_p2     | -   |        | add_ln840_685 | add | fabric | 0       |
+|    add_ln840_686_fu_8509_p2     | -   |        | add_ln840_686 | add | fabric | 0       |
+|    add_ln840_687_fu_8519_p2     | -   |        | add_ln840_687 | add | fabric | 0       |
+|    add_ln840_688_fu_8529_p2     | -   |        | add_ln840_688 | add | fabric | 0       |
+|    add_ln840_691_fu_8555_p2     | -   |        | add_ln840_691 | add | fabric | 0       |
+|    add_ln840_692_fu_8565_p2     | -   |        | add_ln840_692 | add | fabric | 0       |
+|    add_ln840_693_fu_8575_p2     | -   |        | add_ln840_693 | add | fabric | 0       |
+|    add_ln840_694_fu_8585_p2     | -   |        | add_ln840_694 | add | fabric | 0       |
+|    add_ln840_695_fu_8595_p2     | -   |        | add_ln840_695 | add | fabric | 0       |
+|    add_ln840_696_fu_8605_p2     | -   |        | add_ln840_696 | add | fabric | 0       |
+|    add_ln840_697_fu_8615_p2     | -   |        | add_ln840_697 | add | fabric | 0       |
+|    add_ln840_698_fu_8625_p2     | -   |        | add_ln840_698 | add | fabric | 0       |
+|    add_ln840_699_fu_8635_p2     | -   |        | add_ln840_699 | add | fabric | 0       |
+|    add_ln840_700_fu_8645_p2     | -   |        | add_ln840_700 | add | fabric | 0       |
+|    add_ln840_701_fu_8655_p2     | -   |        | add_ln840_701 | add | fabric | 0       |
+|    add_ln840_702_fu_8665_p2     | -   |        | add_ln840_702 | add | fabric | 0       |
+|    add_ln840_705_fu_8695_p2     | -   |        | add_ln840_705 | add | fabric | 0       |
+|    add_ln840_706_fu_8705_p2     | -   |        | add_ln840_706 | add | fabric | 0       |
+|    add_ln840_709_fu_8735_p2     | -   |        | add_ln840_709 | add | fabric | 0       |
+|    add_ln840_710_fu_8745_p2     | -   |        | add_ln840_710 | add | fabric | 0       |
+|    add_ln840_715_fu_8787_p2     | -   |        | add_ln840_715 | add | fabric | 0       |
+|    add_ln840_716_fu_8797_p2     | -   |        | add_ln840_716 | add | fabric | 0       |
+|    add_ln840_717_fu_8807_p2     | -   |        | add_ln840_717 | add | fabric | 0       |
++---------------------------------+-----+--------+---------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Type            | Options                                           | Location                                                                                                                       |
++-----------------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:145 in init                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:163 in activate                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:180 in thresholdactivation<ta, compare>                                  |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:185 in activate                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:208 in init                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:214 in activate                                                          |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:217 in activate                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:247 in init                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:252 in activate                                                          |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/activations.hpp:296 in thresholding_batch                                                |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:302 in thresholding_batch                                                |
+| array_partition | variable=internal_thr.m_thresholds complete dim=0 | ../../../../../../../deps/finn-hlslib/activations.hpp:352 in thresholding_stream_batch, internal_thr.m_thresholds              |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/activations.hpp:358 in thresholding_stream_batch                                         |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:371 in thresholding_stream_batch                                         |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/activations.hpp:376 in thresholding_stream_batch                                         |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/convlayer.h:113 in convlayer_batch                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/convlayer.h:198 in convlayer_batch_tmr                                                   |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/convlayer.h:284 in convlayer_batch_mmv                                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/dma.h:141 in mem2stream                                                                  |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/dma.h:154 in stream2mem                                                                  |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/dma.h:224 in genparamstream                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:62 in xnormul                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:67 in operator*                                                            |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:72 in operator*                                                            |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:80 in binary                                                               |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:89 in operator*                                                            |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:97 in operator*                                                            |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:102 in operator*                                                           |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:116 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:122 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:138 in container<tv>                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:143 in operator[]                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:147 in operator[]                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:151 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:155 in operator const type-parameter-1-0 &                                 |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:163 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:168 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:173 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:204 in container<tv>                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:207 in container<tv>                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:211 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:215 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:220 in operator[]                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:224 in operator const type-parameter-1-0 &                                 |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:232 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:237 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:242 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:261 in container<tv>                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:264 in container<tv>                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:267 in container<tv>                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:271 in operator const type-parameter-1-0 &                                 |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:275 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:279 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:284 in operator[]                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:292 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:297 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/interpret.hpp:302 in operator()                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:89 in mul                                                                        |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:114 in mul                                                                       |
+| bind_op         | variable=res op=mul impl=fabric                   | ../../../../../../../deps/finn-hlslib/mac.hpp:116 in mul, res                                                                  |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:140 in mul                                                                       |
+| bind_op         | variable=res op=mul impl=dsp                      | ../../../../../../../deps/finn-hlslib/mac.hpp:142 in mul, res                                                                  |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:165 in mac                                                                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:168 in mac                                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:192 in mac                                                                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:195 in mac                                                                       |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mac.hpp:202 in mac                                                                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:74 in streamingmaxpool                                                         |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:83 in streamingmaxpool                                                         |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:91 in streamingmaxpool                                                         |
+| array_partition | variable=buf complete dim=2                       | ../../../../../../../deps/finn-hlslib/maxpool.h:146 in streamingmaxpool_precision, buf                                         |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:149 in streamingmaxpool_precision                                              |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:159 in streamingmaxpool_precision                                              |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:162 in streamingmaxpool_precision                                              |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:176 in streamingmaxpool_precision                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:210 in streamingmaxpool_precision_batch                                        |
+| array_partition | variable=buf complete dim=2                       | ../../../../../../../deps/finn-hlslib/maxpool.h:255 in streamingmaxpool_precision_1d, buf                                      |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:258 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:260 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:272 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:275 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:288 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:290 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:302 in streamingmaxpool_precision_1d                                           |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:331 in streamingmaxpool_precision_batch_1d                                     |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:370 in relu_batch                                                              |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:373 in relu_batch                                                              |
+| bind_storage    | variable=accumulators type=RAM_2P impl=LUTRAM     | ../../../../../../../deps/finn-hlslib/maxpool.h:415 in accpool_batch, accumulators                                             |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:421 in accpool_batch                                                           |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:425 in accpool_batch                                                           |
+| array_partition | variable=topval complete dim=1                    | ../../../../../../../deps/finn-hlslib/maxpool.h:477 in labelselect_batch, topval                                               |
+| array_partition | variable=toplabels complete dim=1                 | ../../../../../../../deps/finn-hlslib/maxpool.h:479 in labelselect_batch, toplabels                                            |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:484 in labelselect_batch                                                       |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:489 in labelselect_batch                                                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:492 in labelselect_batch                                                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:501 in labelselect_batch                                                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:508 in labelselect_batch                                                       |
+| array_partition | variable=accu complete dim=0                      | ../../../../../../../deps/finn-hlslib/maxpool.h:570 in pool_batch, accu                                                        |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/maxpool.h:576 in pool_batch                                                              |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:583 in pool_batch                                                              |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:590 in pool_batch                                                              |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/maxpool.h:599 in pool_batch                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/mmv.hpp:53 in operator[]                                                                 |
+| array_partition | variable=inputBuf complete dim=0                  | ../../../../../../../deps/finn-hlslib/mvau.hpp:110 in matrix_vector_activate_batch, inputBuf                                   |
+| array_partition | variable=accu complete dim=0                      | ../../../../../../../deps/finn-hlslib/mvau.hpp:114 in matrix_vector_activate_batch, accu                                       |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/mvau.hpp:124 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:140 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:142 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:151 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:165 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:167 in matrix_vector_activate_batch                                             |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/mvau.hpp:232 in matrix_vector_activate_stream_batch, inputBuf                            |
+| array_partition | variable=accu complete dim=0                      | ../../../../../../../deps/finn-hlslib/mvau.hpp:235 in matrix_vector_activate_stream_batch, accu                                |
+| array_partition | variable=w.m_weights complete dim=0               | ../../../../../../../deps/finn-hlslib/mvau.hpp:238 in matrix_vector_activate_stream_batch, w.m_weights                         |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/mvau.hpp:250 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:267 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:274 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:281 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/mvau.hpp:294 in matrix_vector_activate_stream_batch                                      |
+| bind_storage    | variable=inputBuf type=RAM_2P                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:74 in memory_resource, inputBuf                                          |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=BRAM          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:95 in memory_resource, inputBuf                                          |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=URAM          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:116 in memory_resource, inputBuf                                         |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=LUTRAM        | ../../../../../../../deps/finn-hlslib/slidingwindow.h:137 in memory_resource, inputBuf                                         |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:177 in convolutioninputgenerator, inputBuf                               |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:192 in convolutioninputgenerator                                         |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:243 in convolutioninputgenerator, inputBuf                               |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:244 in convolutioninputgenerator, inputBuf                               |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:254 in convolutioninputgenerator, current_block_write                    |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:308 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:309 in convolutioninputgenerator_mmv, inputBuf                           |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:310 in convolutioninputgenerator_mmv, inputBuf                           |
+| array_partition | variable=inputBuf complete dim=2                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:311 in convolutioninputgenerator_mmv, inputBuf                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:326 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:333 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:359 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:392 in convolutioninputgenerator_mmv                                     |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:394 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:395 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:406 in convolutioninputgenerator_mmv, current_block_write                |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:466 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:467 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:468 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:476 in convolutioninputgenerator_kernel_stride, current_block_write      |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:479 in convolutioninputgenerator_kernel_stride                           |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:544 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:545 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:554 in convolutioninputgenerator_kernel_stride, current_block_write      |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:610 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:611 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:612 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| array_partition | variable=inputBuf complete dim=2                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:613 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:628 in convolutioninputgenerator_kernel_stride_mmv, current_block_write  |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:631 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:638 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:672 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:705 in convolutioninputgenerator_kernel_stride_mmv                       |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:716 in convolutioninputgenerator_kernel_stride_mmv, current_block_write  |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:767 in convolutioninputgenerator_dws, inputBuf                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:782 in convolutioninputgenerator_dws                                     |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:833 in convolutioninputgenerator_dws, inputBuf                           |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:834 in convolutioninputgenerator_dws, inputBuf                           |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:844 in convolutioninputgenerator_dws, current_block_write                |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:903 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:904 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:905 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:915 in convolutioninputgenerator_kernel_stride_dws                       |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:917 in convolutioninputgenerator_kernel_stride_dws, current_block_write  |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:983 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:984 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:993 in convolutioninputgenerator_kernel_stride_dws, current_block_write  |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1048 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1049 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1050 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| array_partition | variable=inputBuf complete dim=2                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1051 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1066 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1073 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1099 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1132 in convolutioninputgenerator_dws_mmv                                |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1134 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1135 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1146 in convolutioninputgenerator_dws_mmv, current_block_write           |
+| performance     | target_ti=IFMDim*IFMDim*IFMChannels/SIMD          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1191 in convolutioninputgenerator_2d_kernel1                             |
+| pipeline        | style=flp II=IFMChannels/SIMD                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1198 in convolutioninputgenerator_2d_kernel1                             |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1245 in convolutioninputgenerator_1d_kernel1                             |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1300 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1315 in convolutioninputgenerator_nonsquare                              |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1366 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1367 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1377 in convolutioninputgenerator_nonsquare, current_block_write         |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1434 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1449 in convolutioninputgenerator_nonsquare_dws                          |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1500 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1501 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1511 in convolutioninputgenerator_nonsquare_dws, current_block_write     |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1575 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1590 in convolutioninputgenerator_nonsquare_dilated                      |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1642 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1643 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1653 in convolutioninputgenerator_nonsquare_dilated, current_block_write |
+| array_partition | variable=inputBuf complete                        | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1710 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1718 in convolutioninputgenerator_1d_parallel                            |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1739 in convolutioninputgenerator_1d_parallel                            |
+| dependence      | variable=inputBuf intra false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1760 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| dependence      | variable=inputBuf inter false                     | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1761 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| dependence      | variable=current_block_write intra false          | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1768 in convolutioninputgenerator_1d_parallel, current_block_write       |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1824 in convolutioninputgenerator_1d_dws_naive                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1908 in convolutioninputgenerator_1d                                     |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:1984 in convolutioninputgenerator_1d_dws                                 |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/slidingwindow.h:2063 in convolutioninputgenerator_1d_dws_stride                          |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:77 in streamlimiter                                                        |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:160 in sameresize                                                          |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:234 in streamingcast                                                       |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:280 in fmpadding_nonsquare                                                 |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:374 in fmpadding                                                           |
+| pipeline        | II=1 style=flp                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:457 in fmpadding_pixel_nonsquare                                           |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:527 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:547 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:558 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:667 in duplicatestreams                                                    |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:725 in addstreams                                                          |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:730 in addstreams                                                          |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:799 in addstreamslayer_batch                                               |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:846 in multichandatawidthconverter_batch                                   |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:853 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:869 in multichandatawidthconverter_batch                                   |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:875 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:887 in multichandatawidthconverter_batch                                   |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:891 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:927 in flattenmultichandata                                                |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:931 in flattenmultichandata                                                |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:958 in packmultichandata                                                   |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/streamtools.h:962 in packmultichandata                                                   |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:1051 in qdma2stream_batch                                                  |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/streamtools.h:1074 in stream2qdma_batch                                                  |
+| array_partition | variable=red_ch_index complete dim=0              | ../../../../../../../deps/finn-hlslib/tmrcheck.hpp:82 in tmrcheck, red_ch_index                                                |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/tmrcheck.hpp:91 in tmrcheck                                                              |
+| array_partition | variable=numerrors complete dim=0                 | ../../../../../../../deps/finn-hlslib/tmrcheck.hpp:99 in tmrcheck, numerrors                                                   |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/tmrcheck.hpp:103 in tmrcheck                                                             |
+| array_partition | variable=compute complete dim=0                   | ../../../../../../../deps/finn-hlslib/tmrcheck.hpp:129 in tmrcheck, compute                                                    |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/tmrcheck.hpp:132 in tmrcheck                                                             |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/upsample.hpp:86 in upsamplenearestneighbour                                              |
+| pipeline        | II=1 style=flp                                    | ../../../../../../../deps/finn-hlslib/upsample.hpp:175 in upsamplenearestneighbour_1d                                          |
+| array_partition | variable=accu complete dim=0                      | ../../../../../../../deps/finn-hlslib/vvau.hpp:101 in vector_vector_activate_batch, accu                                       |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/vvau.hpp:110 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:117 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:126 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:147 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:149 in vector_vector_activate_batch                                             |
+| array_partition | variable=accu complete dim=0                      | ../../../../../../../deps/finn-hlslib/vvau.hpp:216 in vector_vector_activate_stream_batch, accu                                |
+| pipeline        | style=flp II=1                                    | ../../../../../../../deps/finn-hlslib/vvau.hpp:226 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:233 in vector_vector_activate_stream_batch                                      |
+| array_partition | variable=w.m_weights complete dim=0               | ../../../../../../../deps/finn-hlslib/vvau.hpp:242 in vector_vector_activate_stream_batch, w.m_weights                         |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:244 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:249 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:270 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/vvau.hpp:272 in vector_vector_activate_stream_batch                                      |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:83 in tileindex                                                              |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:88 in operator[]                                                             |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:95 in weights                                                                |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:127 in tileindex                                                             |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:132 in operator[]                                                            |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:135 in operator[]                                                            |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:145 in weights                                                               |
+| inline          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:157 in operator[]                                                            |
+| unroll          |                                                   | ../../../../../../../deps/finn-hlslib/weights.hpp:160 in operator[]                                                            |
+| interface       | axis port=in0_V                                   | top_MVAU_hls_4.cpp:26 in mvau_hls_4, in0_V                                                                                     |
+| interface       | axis port=out0_V                                  | top_MVAU_hls_4.cpp:27 in mvau_hls_4, out0_V                                                                                    |
+| interface       | ap_ctrl_none port=return                          | top_MVAU_hls_4.cpp:28 in mvau_hls_4, return                                                                                    |
+| array_partition | variable=weights.m_weights complete dim=1         | top_MVAU_hls_4.cpp:30 in mvau_hls_4, weights.m_weights                                                                         |
++-----------------+---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+
+
+

@@ -1,0 +1,311 @@
+
+
+================================================================
+== Vitis HLS Report for 'Matrix_Vector_Activate_Stream_Batch'
+================================================================
+* Date:           Sun Jun 22 17:08:25 2025
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        project_MVAU_hls_3
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xczu7ev-ffvc1156-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.180 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1011|     1011|  10.110 us|  10.110 us|  1011|  1011|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_249_1  |     1009|     1009|         3|          1|          1|  1008|  yes(flp)|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 1
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 3
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 3, States = { 1 2 3 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.18>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%sf = alloca i32 1"   --->   Operation 6 'alloca' 'sf' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 7 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%add_i_i_i3_960 = alloca i32 1"   --->   Operation 8 'alloca' 'add_i_i_i3_960' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%inputBuf_V = alloca i32 1"   --->   Operation 9 'alloca' 'inputBuf_V' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%inputBuf_V_1 = alloca i32 1"   --->   Operation 10 'alloca' 'inputBuf_V_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%inputBuf_V_2 = alloca i32 1"   --->   Operation 11 'alloca' 'inputBuf_V_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%inputBuf_V_3 = alloca i32 1"   --->   Operation 12 'alloca' 'inputBuf_V_3' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%inputBuf_V_4 = alloca i32 1"   --->   Operation 13 'alloca' 'inputBuf_V_4' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%inputBuf_V_5 = alloca i32 1"   --->   Operation 14 'alloca' 'inputBuf_V_5' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%inputBuf_V_6 = alloca i32 1"   --->   Operation 15 'alloca' 'inputBuf_V_6' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%inputBuf_V_7 = alloca i32 1"   --->   Operation 16 'alloca' 'inputBuf_V_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%inputBuf_V_8 = alloca i32 1"   --->   Operation 17 'alloca' 'inputBuf_V_8' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%inputBuf_V_9 = alloca i32 1"   --->   Operation 18 'alloca' 'inputBuf_V_9' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%inputBuf_V_10 = alloca i32 1"   --->   Operation 19 'alloca' 'inputBuf_V_10' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%inputBuf_V_11 = alloca i32 1"   --->   Operation 20 'alloca' 'inputBuf_V_11' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%nf_1 = alloca i32 1"   --->   Operation 21 'alloca' 'nf_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %out0_V, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 22 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %in1_V, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 23 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %in0_V, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 24 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.42ns)   --->   "%store_ln249 = store i32 0, i32 %nf_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 25 'store' 'store_ln249' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 26 [1/1] (0.42ns)   --->   "%store_ln249 = store i10 0, i10 %i" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 26 'store' 'store_ln249' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 27 [1/1] (0.42ns)   --->   "%store_ln249 = store i32 0, i32 %sf" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 27 'store' 'store_ln249' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln249 = br void %for.body" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 28 'br' 'br_ln249' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%sf_1 = load i32 %sf" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 29 'load' 'sf_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%i_1 = load i10 %i" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 30 'load' 'i_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%nf_2 = load i32 %nf_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:302]   --->   Operation 31 'load' 'nf_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.91ns)   --->   "%icmp_ln249 = icmp_eq  i10 %i_1, i10 1008" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 32 'icmp' 'icmp_ln249' <Predicate = true> <Delay = 0.91> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.91> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 1008, i64 1008, i64 1008"   --->   Operation 33 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.78ns)   --->   "%i_2 = add i10 %i_1, i10 1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 34 'add' 'i_2' <Predicate = true> <Delay = 0.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%br_ln249 = br i1 %icmp_ln249, void %for.body.split, void %for.end92" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 35 'br' 'br_ln249' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%specpipeline_ln250 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 2, i32 0, i32 0, void @empty_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:250]   --->   Operation 36 'specpipeline' 'specpipeline_ln250' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%specloopname_ln231 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:231]   --->   Operation 37 'specloopname' 'specloopname_ln231' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.99ns)   --->   "%icmp_ln253 = icmp_eq  i32 %nf_2, i32 0" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:253]   --->   Operation 38 'icmp' 'icmp_ln253' <Predicate = (!icmp_ln249)> <Delay = 0.99> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%br_ln253 = br i1 %icmp_ln253, void %if.else, void %if.then" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:253]   --->   Operation 39 'br' 'br_ln253' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%inputBuf_V_load = load i10 %inputBuf_V" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 40 'load' 'inputBuf_V_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%inputBuf_V_1_load = load i10 %inputBuf_V_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 41 'load' 'inputBuf_V_1_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%inputBuf_V_2_load = load i10 %inputBuf_V_2" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 42 'load' 'inputBuf_V_2_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%inputBuf_V_3_load = load i10 %inputBuf_V_3" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 43 'load' 'inputBuf_V_3_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%inputBuf_V_4_load = load i10 %inputBuf_V_4" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 44 'load' 'inputBuf_V_4_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%inputBuf_V_5_load = load i10 %inputBuf_V_5" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 45 'load' 'inputBuf_V_5_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%inputBuf_V_6_load = load i10 %inputBuf_V_6" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 46 'load' 'inputBuf_V_6_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%inputBuf_V_7_load = load i10 %inputBuf_V_7" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 47 'load' 'inputBuf_V_7_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%inputBuf_V_8_load = load i10 %inputBuf_V_8" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 48 'load' 'inputBuf_V_8_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%inputBuf_V_9_load = load i10 %inputBuf_V_9" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 49 'load' 'inputBuf_V_9_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%inputBuf_V_10_load = load i10 %inputBuf_V_10" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 50 'load' 'inputBuf_V_10_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%inputBuf_V_11_load = load i10 %inputBuf_V_11" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 51 'load' 'inputBuf_V_11_load' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%trunc_ln261 = trunc i32 %sf_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 52 'trunc' 'trunc_ln261' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.72ns)   --->   "%tmp = mux i10 @_ssdm_op_Mux.ap_auto.12i10.i4, i10 %inputBuf_V_load, i10 %inputBuf_V_1_load, i10 %inputBuf_V_2_load, i10 %inputBuf_V_3_load, i10 %inputBuf_V_4_load, i10 %inputBuf_V_5_load, i10 %inputBuf_V_6_load, i10 %inputBuf_V_7_load, i10 %inputBuf_V_8_load, i10 %inputBuf_V_9_load, i10 %inputBuf_V_10_load, i10 %inputBuf_V_11_load, i4 %trunc_ln261" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261]   --->   Operation 53 'mux' 'tmp' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.72> <CoreInst = "Multiplexer">   --->   Core 76 'Multiplexer' <Latency = 0> <II = 1> <Delay = 0.72> <FuncUnit> <Opcode : 'mux'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 54 [1/1] (0.42ns)   --->   "%br_ln0 = br void %for.inc"   --->   Operation 54 'br' 'br_ln0' <Predicate = (!icmp_ln249 & !icmp_ln253)> <Delay = 0.42>
+ST_1 : Operation 55 [1/1] (0.00ns)   --->   "%in0_V_read = read i16 @_ssdm_op_Read.axis.volatile.i16P128A, i16 %in0_V" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:255]   --->   Operation 55 'read' 'in0_V_read' <Predicate = (!icmp_ln249 & icmp_ln253)> <Delay = 0.00> <CoreInst = "axis">   --->   Core 123 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 56 [1/1] (0.00ns)   --->   "%inElem = trunc i16 %in0_V_read" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:255]   --->   Operation 56 'trunc' 'inElem' <Predicate = (!icmp_ln249 & icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%trunc_ln257 = trunc i32 %sf_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 57 'trunc' 'trunc_ln257' <Predicate = (!icmp_ln249 & icmp_ln253)> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.44ns)   --->   "%switch_ln257 = switch i4 %trunc_ln257, void %arrayidx.case.11, i4 0, void %arrayidx.case.0, i4 1, void %arrayidx.case.1, i4 2, void %arrayidx.case.2, i4 3, void %arrayidx.case.3, i4 4, void %arrayidx.case.4, i4 5, void %arrayidx.case.5, i4 6, void %arrayidx.case.6, i4 7, void %arrayidx.case.7, i4 8, void %arrayidx.case.8, i4 9, void %arrayidx.case.9, i4 10, void %if.then.for.inc_crit_edge" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 58 'switch' 'switch_ln257' <Predicate = (!icmp_ln249 & icmp_ln253)> <Delay = 0.44>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_10" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 59 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 10)> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 60 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 10)> <Delay = 0.42>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_9" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 61 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 9)> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 62 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 9)> <Delay = 0.42>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_8" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 63 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 8)> <Delay = 0.00>
+ST_1 : Operation 64 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 64 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 8)> <Delay = 0.42>
+ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_7" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 65 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 7)> <Delay = 0.00>
+ST_1 : Operation 66 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 66 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 7)> <Delay = 0.42>
+ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_6" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 67 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 6)> <Delay = 0.00>
+ST_1 : Operation 68 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 68 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 6)> <Delay = 0.42>
+ST_1 : Operation 69 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_5" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 69 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 5)> <Delay = 0.00>
+ST_1 : Operation 70 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 70 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 5)> <Delay = 0.42>
+ST_1 : Operation 71 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_4" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 71 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 4)> <Delay = 0.00>
+ST_1 : Operation 72 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 72 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 4)> <Delay = 0.42>
+ST_1 : Operation 73 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_3" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 73 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 3)> <Delay = 0.00>
+ST_1 : Operation 74 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 74 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 3)> <Delay = 0.42>
+ST_1 : Operation 75 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_2" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 75 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 2)> <Delay = 0.00>
+ST_1 : Operation 76 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 76 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 2)> <Delay = 0.42>
+ST_1 : Operation 77 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 77 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 1)> <Delay = 0.00>
+ST_1 : Operation 78 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 78 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 1)> <Delay = 0.42>
+ST_1 : Operation 79 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 79 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 0)> <Delay = 0.00>
+ST_1 : Operation 80 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 80 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 == 0)> <Delay = 0.42>
+ST_1 : Operation 81 [1/1] (0.00ns)   --->   "%store_ln257 = store i10 %inElem, i10 %inputBuf_V_11" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 81 'store' 'store_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 != 0 & trunc_ln257 != 1 & trunc_ln257 != 2 & trunc_ln257 != 3 & trunc_ln257 != 4 & trunc_ln257 != 5 & trunc_ln257 != 6 & trunc_ln257 != 7 & trunc_ln257 != 8 & trunc_ln257 != 9 & trunc_ln257 != 10)> <Delay = 0.00>
+ST_1 : Operation 82 [1/1] (0.42ns)   --->   "%br_ln257 = br void %for.inc" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:257]   --->   Operation 82 'br' 'br_ln257' <Predicate = (!icmp_ln249 & icmp_ln253 & trunc_ln257 != 0 & trunc_ln257 != 1 & trunc_ln257 != 2 & trunc_ln257 != 3 & trunc_ln257 != 4 & trunc_ln257 != 5 & trunc_ln257 != 6 & trunc_ln257 != 7 & trunc_ln257 != 8 & trunc_ln257 != 9 & trunc_ln257 != 10)> <Delay = 0.42>
+ST_1 : Operation 83 [1/1] (0.00ns)   --->   "%inElem_1 = phi i10 %tmp, void %if.else, i10 %inElem, void %arrayidx.case.9, i10 %inElem, void %arrayidx.case.8, i10 %inElem, void %arrayidx.case.7, i10 %inElem, void %arrayidx.case.6, i10 %inElem, void %arrayidx.case.5, i10 %inElem, void %arrayidx.case.4, i10 %inElem, void %arrayidx.case.3, i10 %inElem, void %arrayidx.case.2, i10 %inElem, void %arrayidx.case.1, i10 %inElem, void %arrayidx.case.0, i10 %inElem, void %if.then.for.inc_crit_edge, i10 %inElem, void %arrayidx.case.11"   --->   Operation 83 'phi' 'inElem_1' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 84 [1/1] (0.00ns)   --->   "%add_i_i_i3_960_load = load i8 %add_i_i_i3_960" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:272]   --->   Operation 84 'load' 'add_i_i_i3_960_load' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 85 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_1)   --->   "%p_Result_s = trunc i10 %inElem_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:231]   --->   Operation 85 'trunc' 'p_Result_s' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 86 [1/1] (0.00ns)   --->   "%in1_V_read = read i16 @_ssdm_op_Read.axis.volatile.i16P128A, i16 %in1_V" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:265]   --->   Operation 86 'read' 'in1_V_read' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "axis">   --->   Core 123 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 87 [1/1] (0.99ns)   --->   "%icmp_ln272 = icmp_eq  i32 %sf_1, i32 0" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:272]   --->   Operation 87 'icmp' 'icmp_ln272' <Predicate = (!icmp_ln249)> <Delay = 0.99> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node add_ln840)   --->   "%select_ln272 = select i1 %icmp_ln272, i8 0, i8 %add_i_i_i3_960_load" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:272]   --->   Operation 88 'select' 'select_ln272' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 89 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_1)   --->   "%local_temp_V = trunc i16 %in1_V_read"   --->   Operation 89 'trunc' 'local_temp_V' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 90 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_3)   --->   "%local_temp_V_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 1"   --->   Operation 90 'bitselect' 'local_temp_V_1' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 91 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_5)   --->   "%local_temp_V_2 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 2"   --->   Operation 91 'bitselect' 'local_temp_V_2' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 92 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_7)   --->   "%local_temp_V_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 3"   --->   Operation 92 'bitselect' 'local_temp_V_3' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 93 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_9)   --->   "%local_temp_V_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 4"   --->   Operation 93 'bitselect' 'local_temp_V_4' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 94 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_11)   --->   "%local_temp_V_5 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 5"   --->   Operation 94 'bitselect' 'local_temp_V_5' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 95 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_13)   --->   "%local_temp_V_6 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 6"   --->   Operation 95 'bitselect' 'local_temp_V_6' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 96 [1/1] (0.00ns) (grouped into LUT with out node add_ln840)   --->   "%local_temp_V_7 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 7"   --->   Operation 96 'bitselect' 'local_temp_V_7' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 97 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_17)   --->   "%local_temp_V_8 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 8"   --->   Operation 97 'bitselect' 'local_temp_V_8' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 98 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_19)   --->   "%local_temp_V_9 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %in1_V_read, i32 9"   --->   Operation 98 'bitselect' 'local_temp_V_9' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 99 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_1)   --->   "%xor_ln1019 = xor i1 1, i1 %local_temp_V"   --->   Operation 99 'xor' 'xor_ln1019' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 100 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_1 = xor i1 %xor_ln1019, i1 %p_Result_s"   --->   Operation 100 'xor' 'xor_ln1019_1' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 101 [1/1] (0.00ns)   --->   "%zext_ln780 = zext i1 %xor_ln1019_1"   --->   Operation 101 'zext' 'zext_ln780' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 102 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_3)   --->   "%p_Result_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 1"   --->   Operation 102 'bitselect' 'p_Result_1' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 103 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_3)   --->   "%xor_ln1019_2 = xor i1 1, i1 %local_temp_V_1"   --->   Operation 103 'xor' 'xor_ln1019_2' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 104 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_3 = xor i1 %xor_ln1019_2, i1 %p_Result_1"   --->   Operation 104 'xor' 'xor_ln1019_3' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 105 [1/1] (0.00ns)   --->   "%zext_ln780_1 = zext i1 %xor_ln1019_3"   --->   Operation 105 'zext' 'zext_ln780_1' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 106 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_5)   --->   "%p_Result_2 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 2"   --->   Operation 106 'bitselect' 'p_Result_2' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 107 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_5)   --->   "%xor_ln1019_4 = xor i1 1, i1 %local_temp_V_2"   --->   Operation 107 'xor' 'xor_ln1019_4' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 108 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_5 = xor i1 %xor_ln1019_4, i1 %p_Result_2"   --->   Operation 108 'xor' 'xor_ln1019_5' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 109 [1/1] (0.00ns)   --->   "%zext_ln780_2 = zext i1 %xor_ln1019_5"   --->   Operation 109 'zext' 'zext_ln780_2' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 110 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_7)   --->   "%p_Result_3 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 3"   --->   Operation 110 'bitselect' 'p_Result_3' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 111 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_7)   --->   "%xor_ln1019_6 = xor i1 %p_Result_3, i1 %local_temp_V_3"   --->   Operation 111 'xor' 'xor_ln1019_6' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 112 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_7 = xor i1 %xor_ln1019_6, i1 1"   --->   Operation 112 'xor' 'xor_ln1019_7' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 113 [1/1] (0.00ns)   --->   "%zext_ln780_3 = zext i1 %xor_ln1019_7"   --->   Operation 113 'zext' 'zext_ln780_3' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 114 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_9)   --->   "%p_Result_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 4"   --->   Operation 114 'bitselect' 'p_Result_4' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 115 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_9)   --->   "%xor_ln1019_8 = xor i1 1, i1 %local_temp_V_4"   --->   Operation 115 'xor' 'xor_ln1019_8' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 116 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_9 = xor i1 %xor_ln1019_8, i1 %p_Result_4"   --->   Operation 116 'xor' 'xor_ln1019_9' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 117 [1/1] (0.00ns)   --->   "%zext_ln780_4 = zext i1 %xor_ln1019_9"   --->   Operation 117 'zext' 'zext_ln780_4' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 118 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_11)   --->   "%p_Result_5 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 5"   --->   Operation 118 'bitselect' 'p_Result_5' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 119 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_11)   --->   "%xor_ln1019_10 = xor i1 %p_Result_5, i1 %local_temp_V_5"   --->   Operation 119 'xor' 'xor_ln1019_10' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 120 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_11 = xor i1 %xor_ln1019_10, i1 1"   --->   Operation 120 'xor' 'xor_ln1019_11' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 121 [1/1] (0.00ns)   --->   "%zext_ln780_5 = zext i1 %xor_ln1019_11"   --->   Operation 121 'zext' 'zext_ln780_5' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 122 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_13)   --->   "%p_Result_6 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 6"   --->   Operation 122 'bitselect' 'p_Result_6' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 123 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_13)   --->   "%xor_ln1019_12 = xor i1 %p_Result_6, i1 %local_temp_V_6"   --->   Operation 123 'xor' 'xor_ln1019_12' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 124 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_13 = xor i1 %xor_ln1019_12, i1 1"   --->   Operation 124 'xor' 'xor_ln1019_13' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 125 [1/1] (0.00ns)   --->   "%zext_ln780_6 = zext i1 %xor_ln1019_13"   --->   Operation 125 'zext' 'zext_ln780_6' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 126 [1/1] (0.00ns) (grouped into LUT with out node add_ln840)   --->   "%p_Result_7 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 7"   --->   Operation 126 'bitselect' 'p_Result_7' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 127 [1/1] (0.00ns) (grouped into LUT with out node add_ln840)   --->   "%xor_ln1019_14 = xor i1 %p_Result_7, i1 %local_temp_V_7"   --->   Operation 127 'xor' 'xor_ln1019_14' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 128 [1/1] (0.00ns) (grouped into LUT with out node add_ln840)   --->   "%xor_ln1019_15 = xor i1 %xor_ln1019_14, i1 1"   --->   Operation 128 'xor' 'xor_ln1019_15' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 129 [1/1] (0.00ns) (grouped into LUT with out node add_ln840)   --->   "%zext_ln840 = zext i1 %xor_ln1019_15"   --->   Operation 129 'zext' 'zext_ln840' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 130 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_17)   --->   "%p_Result_8 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 8"   --->   Operation 130 'bitselect' 'p_Result_8' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 131 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_17)   --->   "%xor_ln1019_16 = xor i1 %p_Result_8, i1 %local_temp_V_8"   --->   Operation 131 'xor' 'xor_ln1019_16' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 132 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_17 = xor i1 %xor_ln1019_16, i1 1"   --->   Operation 132 'xor' 'xor_ln1019_17' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 133 [1/1] (0.00ns)   --->   "%zext_ln780_7 = zext i1 %xor_ln1019_17"   --->   Operation 133 'zext' 'zext_ln780_7' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 134 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_19)   --->   "%p_Result_9 = bitselect i1 @_ssdm_op_BitSelect.i1.i10.i32, i10 %inElem_1, i32 9"   --->   Operation 134 'bitselect' 'p_Result_9' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 135 [1/1] (0.00ns) (grouped into LUT with out node xor_ln1019_19)   --->   "%xor_ln1019_18 = xor i1 1, i1 %local_temp_V_9"   --->   Operation 135 'xor' 'xor_ln1019_18' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 136 [1/1] (0.28ns) (out node of the LUT)   --->   "%xor_ln1019_19 = xor i1 %xor_ln1019_18, i1 %p_Result_9"   --->   Operation 136 'xor' 'xor_ln1019_19' <Predicate = (!icmp_ln249)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 137 [1/1] (0.00ns)   --->   "%zext_ln840_1 = zext i1 %xor_ln1019_19"   --->   Operation 137 'zext' 'zext_ln840_1' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 138 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln840 = add i8 %select_ln272, i8 %zext_ln840"   --->   Operation 138 'add' 'add_ln840' <Predicate = (!icmp_ln249)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 139 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln840_1 = add i2 %zext_ln780_6, i2 %zext_ln780_5"   --->   Operation 139 'add' 'add_ln840_1' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 140 [1/1] (0.14ns) (root node of TernaryAdder)   --->   "%add_ln840_2 = add i2 %add_ln840_1, i2 %zext_ln780_7"   --->   Operation 140 'add' 'add_ln840_2' <Predicate = (!icmp_ln249)> <Delay = 0.14> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 141 [1/1] (0.00ns)   --->   "%zext_ln840_2 = zext i2 %add_ln840_2"   --->   Operation 141 'zext' 'zext_ln840_2' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 142 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln840_3 = add i8 %zext_ln840_2, i8 %add_ln840"   --->   Operation 142 'add' 'add_ln840_3' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 143 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln840_4 = add i2 %zext_ln780_4, i2 %zext_ln780_1"   --->   Operation 143 'add' 'add_ln840_4' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 144 [1/1] (0.14ns) (root node of TernaryAdder)   --->   "%add_ln840_5 = add i2 %add_ln840_4, i2 %zext_ln780"   --->   Operation 144 'add' 'add_ln840_5' <Predicate = (!icmp_ln249)> <Delay = 0.14> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 145 [1/1] (0.00ns)   --->   "%zext_ln840_3 = zext i2 %add_ln840_5"   --->   Operation 145 'zext' 'zext_ln840_3' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 146 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln840_6 = add i2 %zext_ln780_2, i2 %zext_ln840_1"   --->   Operation 146 'add' 'add_ln840_6' <Predicate = (!icmp_ln249)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 147 [1/1] (0.14ns) (root node of TernaryAdder)   --->   "%add_ln840_7 = add i2 %add_ln840_6, i2 %zext_ln780_3"   --->   Operation 147 'add' 'add_ln840_7' <Predicate = (!icmp_ln249)> <Delay = 0.14> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 148 [1/1] (0.00ns)   --->   "%zext_ln840_4 = zext i2 %add_ln840_7"   --->   Operation 148 'zext' 'zext_ln840_4' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 149 [1/1] (0.54ns)   --->   "%add_ln840_8 = add i3 %zext_ln840_4, i3 %zext_ln840_3"   --->   Operation 149 'add' 'add_ln840_8' <Predicate = (!icmp_ln249)> <Delay = 0.54> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.54> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 150 [1/1] (0.00ns)   --->   "%zext_ln840_5 = zext i3 %add_ln840_8"   --->   Operation 150 'zext' 'zext_ln840_5' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 151 [1/1] (1.05ns) (root node of TernaryAdder)   --->   "%add_ln840_9 = add i8 %zext_ln840_5, i8 %add_ln840_3"   --->   Operation 151 'add' 'add_ln840_9' <Predicate = (!icmp_ln249)> <Delay = 1.05> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.52> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_1 : Operation 152 [1/1] (1.01ns)   --->   "%sf_2 = add i32 %sf_1, i32 1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:290]   --->   Operation 152 'add' 'sf_2' <Predicate = (!icmp_ln249)> <Delay = 1.01> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.01> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 153 [1/1] (0.99ns)   --->   "%icmp_ln290 = icmp_eq  i32 %sf_2, i32 12" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:290]   --->   Operation 153 'icmp' 'icmp_ln290' <Predicate = (!icmp_ln249)> <Delay = 0.99> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 154 [1/1] (0.00ns)   --->   "%br_ln290 = br i1 %icmp_ln290, void %for.inc.for.inc90_crit_edge, void %for.body.i" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:290]   --->   Operation 154 'br' 'br_ln290' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 155 [1/1] (0.42ns)   --->   "%store_ln290 = store i32 %sf_2, i32 %sf" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:290]   --->   Operation 155 'store' 'store_ln290' <Predicate = (!icmp_ln249 & !icmp_ln290)> <Delay = 0.42>
+ST_1 : Operation 156 [1/1] (0.00ns)   --->   "%br_ln290 = br void %for.inc90" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:290]   --->   Operation 156 'br' 'br_ln290' <Predicate = (!icmp_ln249 & !icmp_ln290)> <Delay = 0.00>
+ST_1 : Operation 157 [1/1] (1.01ns)   --->   "%nf = add i32 %nf_2, i32 1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:302]   --->   Operation 157 'add' 'nf' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 1.01> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.01> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 158 [1/1] (0.99ns)   --->   "%icmp_ln302 = icmp_eq  i32 %nf, i32 84" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:302]   --->   Operation 158 'icmp' 'icmp_ln302' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.99> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.99> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 159 [1/1] (0.44ns)   --->   "%nf_3 = select i1 %icmp_ln302, i32 0, i32 %nf" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:302]   --->   Operation 159 'select' 'nf_3' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.44> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.44> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 160 [1/1] (0.42ns)   --->   "%store_ln306 = store i32 %nf_3, i32 %nf_1" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:306]   --->   Operation 160 'store' 'store_ln306' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.42>
+ST_1 : Operation 161 [1/1] (0.42ns)   --->   "%store_ln306 = store i32 0, i32 %sf" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:306]   --->   Operation 161 'store' 'store_ln306' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.42>
+ST_1 : Operation 162 [1/1] (0.00ns)   --->   "%store_ln249 = store i8 %add_ln840_9, i8 %add_i_i_i3_960" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 162 'store' 'store_ln249' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+ST_1 : Operation 163 [1/1] (0.42ns)   --->   "%store_ln249 = store i10 %i_2, i10 %i" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 163 'store' 'store_ln249' <Predicate = (!icmp_ln249)> <Delay = 0.42>
+ST_1 : Operation 164 [1/1] (0.00ns)   --->   "%br_ln249 = br void %for.body" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249]   --->   Operation 164 'br' 'br_ln249' <Predicate = (!icmp_ln249)> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 0.67>
+ST_2 : Operation 165 [1/1] (0.00ns)   --->   "%idxprom2_i = zext i32 %nf_2" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:302]   --->   Operation 165 'zext' 'idxprom2_i' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.00>
+ST_2 : Operation 166 [1/1] (0.00ns)   --->   "%threshs_addr = getelementptr i7 %threshs, i64 0, i64 %idxprom2_i" [/home/changhong/prj/finn/deps/finn-hlslib/activations.hpp:218]   --->   Operation 166 'getelementptr' 'threshs_addr' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.00>
+ST_2 : Operation 167 [2/2] (0.67ns)   --->   "%threshs_load = load i7 %threshs_addr"   --->   Operation 167 'load' 'threshs_load' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.67> <CoreInst = "ROM">   --->   Core 101 'ROM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 7> <Depth = 84> <ROM>
+
+State 3 <SV = 2> <Delay = 1.81>
+ST_3 : Operation 168 [1/2] (0.67ns)   --->   "%threshs_load = load i7 %threshs_addr"   --->   Operation 168 'load' 'threshs_load' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.67> <CoreInst = "ROM">   --->   Core 101 'ROM' <Latency = 1> <II = 1> <Delay = 0.67> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 7> <Depth = 84> <ROM>
+ST_3 : Operation 169 [1/1] (0.00ns)   --->   "%zext_ln1039 = zext i7 %threshs_load"   --->   Operation 169 'zext' 'zext_ln1039' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.00>
+ST_3 : Operation 170 [1/1] (0.84ns)   --->   "%icmp_ln1039 = icmp_slt  i8 %add_ln840_9, i8 %zext_ln1039"   --->   Operation 170 'icmp' 'icmp_ln1039' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.84> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 171 [1/1] (0.28ns)   --->   "%result_V = xor i1 %icmp_ln1039, i1 1"   --->   Operation 171 'xor' 'result_V' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 172 [1/1] (0.00ns)   --->   "%zext_ln298 = zext i1 %result_V" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:298]   --->   Operation 172 'zext' 'zext_ln298' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.00>
+ST_3 : Operation 173 [1/1] (0.00ns)   --->   "%write_ln298 = write void @_ssdm_op_Write.axis.volatile.i8P128A, i8 %out0_V, i8 %zext_ln298" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:298]   --->   Operation 173 'write' 'write_ln298' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.00> <CoreInst = "axis">   --->   Core 123 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_3 : Operation 174 [1/1] (0.00ns)   --->   "%br_ln306 = br void %for.inc90" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:306]   --->   Operation 174 'br' 'br_ln306' <Predicate = (!icmp_ln249 & icmp_ln290)> <Delay = 0.00>
+ST_3 : Operation 175 [1/1] (0.00ns)   --->   "%ret_ln308 = ret" [/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:308]   --->   Operation 175 'ret' 'ret_ln308' <Predicate = (icmp_ln249)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 3.18ns
+The critical path consists of the following:
+	'alloca' operation ('sf') [5]  (0 ns)
+	'load' operation ('sf', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261) on local variable 'sf' [29]  (0 ns)
+	'mux' operation ('tmp', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261) [55]  (0.723 ns)
+	multiplexor before 'phi' operation ('inputBuf.V') with incoming values : ('tmp', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261) ('inElem', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:255) [99]  (0.427 ns)
+	'phi' operation ('inputBuf.V') with incoming values : ('tmp', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:261) ('inElem', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:255) [99]  (0 ns)
+	'xor' operation ('xor_ln1019_1') [116]  (0.287 ns)
+	'add' operation ('add_ln840_5') [160]  (0.144 ns)
+	'add' operation ('add_ln840_8') [165]  (0.548 ns)
+	'add' operation ('add_ln840_9') [167]  (1.05 ns)
+	'store' operation ('store_ln249', /home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:249) of variable 'add_ln840_9' on local variable 'add_i_i_i3_960' [190]  (0 ns)
+
+ <State 2>: 0.677ns
+The critical path consists of the following:
+	'getelementptr' operation ('threshs_addr', /home/changhong/prj/finn/deps/finn-hlslib/activations.hpp:218) [176]  (0 ns)
+	'load' operation ('threshs_load') on array 'threshs' [177]  (0.677 ns)
+
+ <State 3>: 1.81ns
+The critical path consists of the following:
+	'load' operation ('threshs_load') on array 'threshs' [177]  (0.677 ns)
+	'icmp' operation ('icmp_ln1039') [179]  (0.849 ns)
+	'xor' operation ('result.V') [180]  (0.287 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

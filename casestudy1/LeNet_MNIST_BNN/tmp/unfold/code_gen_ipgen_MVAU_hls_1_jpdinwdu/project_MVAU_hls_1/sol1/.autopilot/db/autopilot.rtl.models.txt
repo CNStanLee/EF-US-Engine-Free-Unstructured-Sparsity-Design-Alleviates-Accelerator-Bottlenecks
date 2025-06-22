@@ -1,0 +1,5 @@
+MVAU_hls_1_flow_control_loop_pipe_sequential_init
+MVAU_hls_1_regslice_both
+MVAU_hls_1_regslice_both
+Matrix_Vector_Activate_Batch
+MVAU_hls_1

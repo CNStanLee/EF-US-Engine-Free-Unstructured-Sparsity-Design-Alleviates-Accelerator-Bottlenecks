@@ -1,0 +1,151 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Sun Jun 22 17:16:55 2025
+| Host         : finn_dev_root running 64-bit Ubuntu 22.04.1 LTS
+| Command      : report_methodology -file finn_design_wrapper_methodology_drc_routed.rpt -pb finn_design_wrapper_methodology_drc_routed.pb -rpx finn_design_wrapper_methodology_drc_routed.rpx
+| Design       : finn_design_wrapper
+| Device       : xczu7ev-ffvc1156-2-e
+| Speed File   : -2
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 23
++-----------+----------+-----------------------------------------------------------+------------+
+| Rule      | Severity | Description                                               | Violations |
++-----------+----------+-----------------------------------------------------------+------------+
+| SYNTH-5   | Warning  | Mapped onto distributed RAM because of timing constraints | 2          |
+| TIMING-18 | Warning  | Missing input or output delay                             | 21         |
++-----------+----------+-----------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+SYNTH-5#1 Warning
+Mapped onto distributed RAM because of timing constraints  
+The instance finn_design_i/ConvolutionInputGenerator_rtl_2/inst/impl/window_buffer_inst/Ram_reg_0_255_0_0 is implemented as distributed LUT RAM for the following reason: The timing constraints suggest that the chosen mapping will yield a better timing.
+Related violations: <none>
+
+SYNTH-5#2 Warning
+Mapped onto distributed RAM because of timing constraints  
+The instance finn_design_i/MVAU_hls_4/MVAU_hls_4_wstrm/inst/core/genUnpumped.mem/blkStage2.Mem_reg_0_511_0_0 is implemented as distributed LUT RAM for the following reason: The timing constraints suggest that the chosen mapping will yield a better timing.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on ap_rst_n relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on m_axis_0_tready relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[0] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[1] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[2] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[3] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[4] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[5] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[6] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tdata[7] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on s_axis_0_tvalid relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[0] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[1] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[2] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[3] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[4] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[5] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[6] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tdata[7] relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on m_axis_0_tvalid relative to clock(s) ap_clk
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on s_axis_0_tready relative to clock(s) ap_clk
+Related violations: <none>
+
+

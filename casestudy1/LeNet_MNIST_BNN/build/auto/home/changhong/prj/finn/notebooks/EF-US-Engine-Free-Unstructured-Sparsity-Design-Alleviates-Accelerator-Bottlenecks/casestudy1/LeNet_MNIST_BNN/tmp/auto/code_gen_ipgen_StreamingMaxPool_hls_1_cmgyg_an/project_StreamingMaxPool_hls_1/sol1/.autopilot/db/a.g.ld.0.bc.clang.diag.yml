@@ -1,0 +1,34 @@
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h, 
+                   Line: 69, Column: 0 }
+Function:        _Z16StreamingMaxPoolILj10ELj2ELj16EEvRN3hls6streamI7ap_uintIXT1_EELi0EEES5_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_73_1
+  - String:          ''' ('
+  - LoopLoc:         '/home/changhong/prj/finn/deps/finn-hlslib/maxpool.h:73:20'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'StreamingMaxPool<10u, 2u, 16u>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '5'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            AutoInline
+DebugLoc:        { File: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/auto/code_gen_ipgen_StreamingMaxPool_hls_1_cmgyg_an/top_StreamingMaxPool_hls_1.cpp, 
+                   Line: 17, Column: 0 }
+Function:        _Z22StreamingMaxPool_hls_1RN3hls6streamI7ap_uintILi16EELi0EEES4_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void StreamingMaxPool<10u, 2u, 16u>(hls::stream<ap_uint<16u>, 0>&, hls::stream<ap_uint<16u>, 0>&)'
+    DebugLoc:        { File: /home/changhong/prj/finn/deps/finn-hlslib/maxpool.h, 
+                       Line: 69, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'StreamingMaxPool_hls_1(hls::stream<ap_uint<16>, 0>&, hls::stream<ap_uint<16>, 0>&)'
+    DebugLoc:        { File: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/build/auto/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/auto/code_gen_ipgen_StreamingMaxPool_hls_1_cmgyg_an/top_StreamingMaxPool_hls_1.cpp, 
+                       Line: 17, Column: 0 }
+  - String:          ''''
+...

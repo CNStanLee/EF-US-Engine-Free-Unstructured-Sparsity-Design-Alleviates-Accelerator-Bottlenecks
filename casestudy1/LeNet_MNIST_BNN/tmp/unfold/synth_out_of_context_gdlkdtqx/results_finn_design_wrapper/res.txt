@@ -1,0 +1,13 @@
+LUT=51949
+LUTRAM=120
+FF=12858
+DSP=0
+BRAM=1
+BRAM_18K=2
+BRAM_36K=0
+URAM=0
+Carry=410
+WNS=1.318
+Delay=1.318
+vivado_version=2022.2
+vivado_build_no=3671981

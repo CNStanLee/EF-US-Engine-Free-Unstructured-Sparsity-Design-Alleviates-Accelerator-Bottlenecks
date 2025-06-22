@@ -1,0 +1,14 @@
+set SynModuleInfo {
+  {SRCNAME StreamingMaxPool_hls_0_Pipeline_VITIS_LOOP_79_3_VITIS_LOOP_80_4_VITIS_LOOP_82_5 MODELNAME StreamingMaxPool_hls_0_Pipeline_VITIS_LOOP_79_3_VITIS_LOOP_80_4_VITIS_LOOP_82_5 RTLNAME StreamingMaxPool_hls_0_StreamingMaxPool_hls_0_Pipeline_VITIS_LOOP_79_3_VITIS_LOOP_80_4_VITIS_LOOP_82_5
+    SUBMODULES {
+      {MODELNAME StreamingMaxPool_hls_0_flow_control_loop_pipe_sequential_init RTLNAME StreamingMaxPool_hls_0_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME StreamingMaxPool_hls_0_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME StreamingMaxPool_hls_0_Pipeline_VITIS_LOOP_90_6 MODELNAME StreamingMaxPool_hls_0_Pipeline_VITIS_LOOP_90_6 RTLNAME StreamingMaxPool_hls_0_StreamingMaxPool_hls_0_Pipeline_VITIS_LOOP_90_6}
+  {SRCNAME StreamingMaxPool_hls_0 MODELNAME StreamingMaxPool_hls_0 RTLNAME StreamingMaxPool_hls_0 IS_TOP 1
+    SUBMODULES {
+      {MODELNAME StreamingMaxPool_hls_0_buf_V_RAM_AUTO_1R1W RTLNAME StreamingMaxPool_hls_0_buf_V_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+      {MODELNAME StreamingMaxPool_hls_0_regslice_both RTLNAME StreamingMaxPool_hls_0_regslice_both BINDTYPE interface TYPE interface_regslice INSTNAME StreamingMaxPool_hls_0_regslice_both_U}
+    }
+  }
+}

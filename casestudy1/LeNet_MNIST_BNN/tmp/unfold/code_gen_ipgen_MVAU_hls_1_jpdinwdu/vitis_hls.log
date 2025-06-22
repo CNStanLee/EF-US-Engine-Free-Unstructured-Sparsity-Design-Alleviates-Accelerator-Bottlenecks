@@ -1,0 +1,162 @@
+
+****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+  **** SW Build 3670227 on Oct 13 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source /tools/Xilinx/Vitis_HLS/2022.2/scripts/vitis_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.2/bin/unwrapped/lnx64.o/vitis_hls'
+/tools/Xilinx/Vitis_HLS/2022.2/tps/tcl/tcl8.5/tzdata/Europe/Dublin can't be opened.
+INFO: [HLS 200-10] For user 'root' on host 'finn_dev_root' (Linux_x86_64 version 6.8.0-60-generic) on Sun Jun 22 17:18:28 +0000 2025
+INFO: [HLS 200-10] On os Ubuntu 22.04.1 LTS
+INFO: [HLS 200-10] In directory '/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu'
+Sourcing Tcl script '/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/hls_syn_MVAU_hls_1.tcl'
+INFO: [HLS 200-1510] Running: source /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/hls_syn_MVAU_hls_1.tcl
+HLS project: project_MVAU_hls_1
+HW source dir: /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu
+finn-hlslib dir: /home/changhong/prj/finn/deps/finn-hlslib
+custom HLS dir: /home/changhong/prj/finn/custom_hls
+INFO: [HLS 200-1510] Running: open_project project_MVAU_hls_1 
+INFO: [HLS 200-10] Creating and opening project '/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/project_MVAU_hls_1'.
+INFO: [HLS 200-1510] Running: add_files /home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/top_MVAU_hls_1.cpp -cflags -std=c++14 -I/home/changhong/prj/finn/deps/finn-hlslib -I/home/changhong/prj/finn/custom_hls 
+INFO: [HLS 200-10] Adding design file '/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/top_MVAU_hls_1.cpp' to the project
+INFO: [HLS 200-1510] Running: set_top MVAU_hls_1 
+INFO: [HLS 200-1510] Running: open_solution sol1 
+INFO: [HLS 200-10] Creating and opening solution '/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/project_MVAU_hls_1/sol1'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xczu7ev-ffvc1156-2-e 
+INFO: [HLS 200-1611] Setting target device to 'xczu7ev-ffvc1156-2-e'
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+Running Dispatch Server on port: 32773
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 10.04 seconds; current allocated memory: 1.069 GB.
+INFO: [HLS 200-10] Analyzing design file '/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/top_MVAU_hls_1.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.03 seconds. CPU system time: 0.66 seconds. Elapsed time: 5.74 seconds; current allocated memory: 1.078 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'BinaryWeights<150u, 16u, 1u>::TileIndex::TileIndex(BinaryWeights<150u, 16u, 1u> const&, unsigned int)' into 'BinaryWeights<150u, 16u, 1u>::weights(unsigned int) const' (/home/changhong/prj/finn/deps/finn-hlslib/weights.hpp:96:9)
+INFO: [HLS 214-131] Inlining function 'Recast<XnorMul>::Container<ap_uint<150> >::Container(ap_uint<150> const&)' into 'Recast<XnorMul>::Container<ap_uint<150> > Recast<XnorMul>::operator()<ap_uint<150> >(ap_uint<150> const&, unsigned int) const' (/home/changhong/prj/finn/deps/finn-hlslib/interpret.hpp:169:9)
+INFO: [HLS 214-131] Inlining function 'XnorMul::XnorMul(ap_uint<1>)' into 'Recast<XnorMul>::Container<ap_uint<150> >::operator()(unsigned int, unsigned int) const' (/home/changhong/prj/finn/deps/finn-hlslib/interpret.hpp:152:9)
+INFO: [HLS 214-131] Inlining function 'XnorMul::operator*(ap_uint<1> const&) const' into 'operator*(ap_uint<1> const&, XnorMul const&)' (/home/changhong/prj/finn/deps/finn-hlslib/interpret.hpp:73:10)
+INFO: [HLS 214-131] Inlining function 'operator*(ap_uint<1> const&, XnorMul const&)' into 'decltype((fp) * (fp0)) mul<bool, XnorMul>(bool const&, XnorMul const&, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mac.hpp:90:12)
+INFO: [HLS 214-131] Inlining function 'decltype((fp) * (fp0)) mul<bool, XnorMul>(bool const&, XnorMul const&, ap_resource_dflt const&)' into 'ap_int<8> mac<150u, ap_int<8>, ap_uint<150>, Recast<XnorMul>::Container<ap_uint<150> >, ap_resource_dflt>(ap_int<8> const&, ap_uint<150> const&, Recast<XnorMul>::Container<ap_uint<150> > const&, ap_resource_dflt const&, unsigned int)' (/home/changhong/prj/finn/deps/finn-hlslib/mac.hpp:169:9)
+INFO: [HLS 214-131] Inlining function 'Recast<XnorMul>::Container<ap_uint<150> >::operator()(unsigned int, unsigned int) const' into 'ap_int<8> mac<150u, ap_int<8>, ap_uint<150>, Recast<XnorMul>::Container<ap_uint<150> >, ap_resource_dflt>(ap_int<8> const&, ap_uint<150> const&, Recast<XnorMul>::Container<ap_uint<150> > const&, ap_resource_dflt const&, unsigned int)' (/home/changhong/prj/finn/deps/finn-hlslib/mac.hpp:169:19)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<1>, 1u>::Container<ap_uint<16> >::operator ap_uint<16> const&() const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:171:17)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<1>, 1u>::Container<ap_uint<16> >::operator()(unsigned int, unsigned int, bool) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:168:2)
+INFO: [HLS 214-131] Inlining function 'ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >::activate(unsigned int, unsigned int, ap_int<8> const&) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:168:33)
+INFO: [HLS 214-131] Inlining function 'ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >::init(unsigned int, unsigned int) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:143:29)
+INFO: [HLS 214-131] Inlining function 'ap_int<8> mac<150u, ap_int<8>, ap_uint<150>, Recast<XnorMul>::Container<ap_uint<150> >, ap_resource_dflt>(ap_int<8> const&, ap_uint<150> const&, Recast<XnorMul>::Container<ap_uint<150> > const&, ap_resource_dflt const&, unsigned int)' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:155:25)
+INFO: [HLS 214-131] Inlining function 'Recast<XnorMul>::Container<ap_uint<150> > Recast<XnorMul>::operator()<ap_uint<150> >(ap_uint<150> const&, unsigned int) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:154:26)
+INFO: [HLS 214-131] Inlining function 'ap_uint<150> const& Identity::operator()<ap_uint<150> >(ap_uint<150> const&) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:152:19)
+INFO: [HLS 214-131] Inlining function 'BinaryWeights<150u, 16u, 1u>::TileIndex::operator[](unsigned int) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:152:30)
+INFO: [HLS 214-131] Inlining function 'BinaryWeights<150u, 16u, 1u>::weights(unsigned int) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:149:29)
+INFO: [HLS 214-377] Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field (/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/top_MVAU_hls_1.cpp:33:9)
+INFO: [HLS 214-377] Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field (/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/top_MVAU_hls_1.cpp:32:9)
+INFO: [HLS 214-377] Adding 'weights' into disaggregation list because there's array-partition pragma applied on the struct field (/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/top_MVAU_hls_1.cpp:31:9)
+INFO: [HLS 214-210] Disaggregating variable 'weights' (/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/params.h:1:31)
+Resolution: For help on HLS 214-210 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=214-210.html
+INFO: [HLS 214-210] Disaggregating variable 'threshs' (/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/thresh.h:1:0)
+Resolution: For help on HLS 214-210 see www.xilinx.com/cgi-bin/docs/rdoc?v=2022.2;t=hls+guidance;d=214-210.html
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_139_2' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:139:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_141_3' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:141:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_150_4' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:150:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_153_5' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:153:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_167_1' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mac.hpp:167:21)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_164_6' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:164:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_166_7' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:166:20)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_216_1' is marked as complete unroll implied by the pipeline pragma (/home/changhong/prj/finn/deps/finn-hlslib/activations.hpp:216:20)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_139_2' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:139:25) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 16 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_141_3' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:141:20) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 1 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_150_4' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:150:23) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 16 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_153_5' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:153:25) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 1 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_167_1' (/home/changhong/prj/finn/deps/finn-hlslib/mac.hpp:167:21) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 150 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_164_6' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:164:25) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 16 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_166_7' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:166:20) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 1 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_216_1' (/home/changhong/prj/finn/deps/finn-hlslib/activations.hpp:216:20) in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' completely with a factor of 1 (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-178] Inlining function 'comp::less_equal<ap_int<8>, ap_int<8> >::operator()(ap_int<8> const&, ap_int<8> const&) const' into 'void Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>(hls::stream<ap_uint<150>, 0>&, hls::stream<ap_uint<16>, 0>&, BinaryWeights<150u, 16u, 1u> const&, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > > const&, int, ap_resource_dflt const&)' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZL7threshs': Complete partitioning on dimension 1. Complete partitioning on dimension 3. (/home/changhong/prj/finn/notebooks/EF-US-Engine-Free-Unstructured-Sparsity-Design-Alleviates-Accelerator-Bottlenecks/casestudy1/LeNet_MNIST_BNN/tmp/unfold/code_gen_ipgen_MVAU_hls_1_jpdinwdu/thresh.h:1:0)
+INFO: [HLS 214-248] Applying array_partition to 'weights': Complete partitioning on dimension 1.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 7.28 seconds. CPU system time: 0.48 seconds. Elapsed time: 7.79 seconds; current allocated memory: 1.078 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.078 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.2 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.21 seconds; current allocated memory: 1.096 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.15 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 1.101 GB.
+INFO: [XFORM 203-11] Balancing expressions in function 'Matrix_Vector_Activate_Batch<150u, 16u, 150u, 16u, 1u, Recast<XnorMul>, Slice<ap_uint<1>, 1u>, Identity, ap_uint<150>, ap_uint<16>, BinaryWeights<150u, 16u, 1u>, ThresholdsActivation<1u, 16u, 1u, ap_int<8>, ap_uint<1>, 0, comp::less_equal<ap_int<8>, ap_int<8> > >, ap_resource_dflt>' (/home/changhong/prj/finn/deps/finn-hlslib/mvau.hpp:98:21)...2286 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.42 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.45 seconds; current allocated memory: 1.143 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.23 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.25 seconds; current allocated memory: 1.167 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MVAU_hls_1' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Matrix_Vector_Activate_Batch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_123_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_123_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2.33 seconds. CPU system time: 0.05 seconds. Elapsed time: 2.39 seconds; current allocated memory: 1.200 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 4.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 4.12 seconds; current allocated memory: 1.200 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MVAU_hls_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 4.73 seconds. CPU system time: 0.01 seconds. Elapsed time: 4.77 seconds; current allocated memory: 1.200 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1.32 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.34 seconds; current allocated memory: 1.200 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Matrix_Vector_Activate_Batch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Matrix_Vector_Activate_Batch'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3.89 seconds. CPU system time: 0.03 seconds. Elapsed time: 3.95 seconds; current allocated memory: 1.218 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MVAU_hls_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MVAU_hls_1/in0_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'MVAU_hls_1/out0_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'MVAU_hls_1' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MVAU_hls_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 11.38 seconds. CPU system time: 0.12 seconds. Elapsed time: 11.5 seconds; current allocated memory: 1.293 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 5.61 seconds. CPU system time: 0.02 seconds. Elapsed time: 5.64 seconds; current allocated memory: 1.293 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.43 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.45 seconds; current allocated memory: 1.311 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for MVAU_hls_1.
+INFO: [VLOG 209-307] Generating Verilog RTL for MVAU_hls_1.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 157.21 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 47.14 seconds. CPU system time: 1.46 seconds. Elapsed time: 48.77 seconds; current allocated memory: 247.543 MB.
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'no'.
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 22 17:19:37 2025...
+INFO: [HLS 200-802] Generated output file project_MVAU_hls_1/sol1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 8.49 seconds. CPU system time: 0.83 seconds. Elapsed time: 11.6 seconds; current allocated memory: 7.012 MB.
+INFO: [HLS 200-112] Total CPU user time: 58.09 seconds. Total CPU system time: 2.89 seconds. Total elapsed time: 73.35 seconds; peak allocated memory: 1.318 GB.
+INFO: [Common 17-206] Exiting vitis_hls at Sun Jun 22 17:19:41 2025...

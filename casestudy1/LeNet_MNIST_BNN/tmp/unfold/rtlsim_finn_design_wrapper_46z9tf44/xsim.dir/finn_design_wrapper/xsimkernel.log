@@ -1,0 +1,7 @@
+Running: xsim.dir/finn_design_wrapper/xsimk.so -nolog
+Design successfully loaded
+Design Loading Memory Usage: 58056 KB (Peak: 58504 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 57276 KB (Peak: 58504 KB)
+Simulation CPU Usage: 300 ms
