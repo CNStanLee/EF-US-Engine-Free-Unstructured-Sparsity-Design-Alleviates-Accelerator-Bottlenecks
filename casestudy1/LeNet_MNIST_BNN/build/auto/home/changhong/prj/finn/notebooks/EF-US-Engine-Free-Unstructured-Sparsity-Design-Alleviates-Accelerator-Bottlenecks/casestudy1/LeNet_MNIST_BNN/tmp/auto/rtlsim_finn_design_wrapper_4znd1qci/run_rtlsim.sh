@@ -1,1 +1,0 @@
-LD_LIBRARY_PATH=/tools/Xilinx/Vivado/2022.2/lib/lnx64.o ./rtlsim_xsi > rtlsim_xsi_log.txt

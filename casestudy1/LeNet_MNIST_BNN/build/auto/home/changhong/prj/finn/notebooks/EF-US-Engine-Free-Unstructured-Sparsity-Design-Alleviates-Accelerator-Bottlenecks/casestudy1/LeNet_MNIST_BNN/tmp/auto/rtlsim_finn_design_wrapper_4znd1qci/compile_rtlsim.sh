@@ -1,1 +1,0 @@
-g++ -I/home/changhong/prj/finn/deps/pyxsi/src -I/tools/Xilinx/Vivado/2022.2/data/xsim/include -std=c++14 -O3 -o rtlsim_xsi rtlsim_xsi.cpp /home/changhong/prj/finn/deps/pyxsi/src/xsi_loader.cpp -ldl -lrt

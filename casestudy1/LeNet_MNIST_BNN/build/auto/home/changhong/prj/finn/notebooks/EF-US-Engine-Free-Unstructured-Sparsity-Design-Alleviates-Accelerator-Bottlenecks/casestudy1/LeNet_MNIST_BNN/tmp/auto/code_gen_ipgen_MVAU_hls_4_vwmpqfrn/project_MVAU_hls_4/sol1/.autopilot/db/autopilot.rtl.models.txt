@@ -1,6 +1,0 @@
-MVAU_hls_4_mux_847_1_1_1
-MVAU_hls_4_regslice_both
-MVAU_hls_4_regslice_both
-MVAU_hls_4_regslice_both
-MVAU_hls_4_flow_control_loop_pipe_no_ap_cont
-MVAU_hls_4
